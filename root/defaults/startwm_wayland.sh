@@ -8,6 +8,8 @@ if [ ! -f $HOME/Desktop/lm-studio.desktop ]; then
   chmod +x $HOME/Desktop/lm-studio.desktop
   cp /defaults/lms.desktop $HOME/Desktop/
   chmod +x $HOME/Desktop/lms.desktop
+  cp /usr/share/applications/org.kde.konsole.desktop $HOME/Desktop/
+  chmod +x $HOME/Desktop/org.kde.konsole.desktop
 fi
 
 # Default configs

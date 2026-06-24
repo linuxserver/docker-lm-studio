@@ -85,15 +85,15 @@ app_setup_block: |
 
   For AI-assisted coding and agentic workflows, the image includes:
 
-  * Aider (via `aider-install`) for git-aware code editing with LLM assistance
-  * Cline for agent-style development inside development environments
+  * Aider (via `aider-install`) for git-aware code editing with LLM assistance (manual configuration required)
+  * Cline for agent style development inside development environments
   * Code-OSS for a desktop IDE with AI plugin support
-  * OpenClaw for running autonomous AI agents that execute tasks through LLM-driven workflows and messaging-based interaction
-  * OpenCode AI for LLM-driven code generation and refactoring
+  * OpenClaw for running autonomous AI agents that execute tasks through workflows and messaging based interaction
+  * OpenCode AI for code generation and refactoring
 
   These tools are primarily **CLI and developer focused**, and are designed to be configured by the user from the terminal on first launch to connect to a local LM Studio backend.
 
-  Included is a desktop launcher for LLMster to provide the backend for these tools in the desktop environment. This can also be launched with `lms server start` from the command line.
+  Included is a desktop launcher for LLMster to provide the backend for these tools in the desktop environment in a headless manner. This can also be launched with `lms server start` from the command line or from the desktop application via the taskbar icon.
 
   **Important notes:**
 
