@@ -145,12 +145,14 @@ pipeline {
     /* ########################
        External Release Tagging
        ######################## */
-    // If this is an os release set release type to none to indicate no external release
-    stage("Set ENV os"){
+    // If this is a custom command to determine version use that command
+    stage("Set tag custom bash"){
       steps{
         script{
-          env.EXT_RELEASE = env.PACKAGE_TAG
-          env.RELEASE_LINK = 'none'
+          env.EXT_RELEASE = sh(
+            script: ''' curl -sX GET https://api.github.com/repos/linuxserver/docker-baseimage-selkies/releases | jq -r 'first(.[] | select(.tag_name | startswith("arch-"))) | .tag_name' | sed 's|arch-||' | sed 's|-ls.*||' ''',
+            returnStdout: true).trim()
+            env.RELEASE_LINK = 'custom_command'
         }
       }
     }
@@ -1033,7 +1035,7 @@ pipeline {
                   "type": "commit",\
                   "tagger": {"name": "LinuxServer-CI","email": "ci@linuxserver.io","date": "'${GITHUB_DATE}'"}}'
               echo "Pushing New release for Tag"
-              echo "Updating base packages to ${PACKAGE_TAG}" > releasebody.json
+              echo "Updating to ${EXT_RELEASE_CLEAN}" > releasebody.json
               jq -n \
                 --arg tag_name "$META_TAG" \
                 --arg target_commitish "master" \
