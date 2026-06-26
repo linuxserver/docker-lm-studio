@@ -1,0 +1,19 @@
+#! /bin/bash
+
+if [ ! -f "$HOME/.lmstudio-home-pointer" ]; then
+  printf "$HOME/.lmstudio" > "$HOME/.lmstudio-home-pointer"
+fi
+
+if [ ! -f "$HOME/.lmstudio/.internal/llmster-install-location.json" ]; then
+  mkdir -p "$HOME/.lmstudio/.internal"
+  rsync -av --ignore-existing \
+    /opt/lm-studio/.lmstudio/* \
+    "$HOME/.lmstudio/"
+  cp \
+    "/opt/lm-studio/.lmstudio/.internal/llmster-install-location.json" \
+    "$HOME/.lmstudio/.internal/llmster-install-location.json"
+  sed -i "s:/opt/lm-studio:$HOME:g" \
+    "$HOME/.lmstudio/.internal/llmster-install-location.json"
+fi
+
+"$HOME/.lmstudio/bin/lms" "$@"

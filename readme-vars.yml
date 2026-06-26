@@ -1,0 +1,104 @@
+---
+
+# project information
+project_name: lm-studio
+project_url: "https://lmstudio.ai/"
+project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/lmstudio-logo.png"
+project_blurb: "[LM Studio]({{ project_url }}) can run local AI models like gpt-oss, Llama, Gemma, Qwen, and DeepSeek privately on your computer."
+project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+project_categories: "Remote Desktop,AI"
+project_blurb_optional_extras_enabled: false
+# supported architectures
+available_architectures:
+  - {arch: "{{ arch_x86_64 }}", tag: "latest"}
+# development version
+development_versions: false
+# container parameters
+common_param_env_vars_enabled: true
+param_container_name: "{{ project_name }}"
+param_usage_include_vols: true
+param_volumes:
+  - {vol_path: "/config", vol_host_path: "/path/to/config", desc: "Users home directory in the container, stores program settings and files."}
+param_usage_include_ports: true
+param_ports:
+  - {external_port: "3000", internal_port: "3000", port_desc: "LM Studio desktop gui HTTP, must be proxied."}
+  - {external_port: "3001", internal_port: "3001", port_desc: "LM Studio desktop gui HTTPS."}
+opt_custom_params:
+  - {name: "shm-size", name_compose: "shm_size", value: "1gb", desc: "Required for the desktop enrionment to function."}
+# Selkies blurb settings
+selkies_blurb: true
+show_nvidia: true
+# application setup block
+app_setup_block_enabled: true
+app_setup_block: |
+  LM Studio can be accessed at:
+
+  * https://yourhost:3001/
+
+  ### GPU Support
+
+  This image is Arch based and supports the following GPUs:
+
+  * Cuda v13- This requires a 2000 series or higher Nvidia video card running the latest binary drivers, v12 is not supported.
+  * Vulkan- This requires a semi modern AMD GPU.
+
+  ROCm is not supported at this time due to it's size and Vulkan option for AMD.
+
+  #### Minimum run commands (start here then expand to fit your needs)
+
+  AMD GPUs:
+
+  ```bash
+  docker run --rm -it \
+    --shm-size=1gb \
+    --device /dev/dri \
+    -e AUTO_GPU=true \
+    -p 3001:3001 \
+    linuxserver/lm-studio bash
+  ```
+
+  Nvidia GPUs:
+
+  As of driver `595.80` with NVIDIA Container Toolkit installed:
+
+  ```bash
+  # Host level modprobe modeset
+  nvidia-modprobe --modeset
+  ```
+
+  ```bash
+  docker run --rm -it \
+    --shm-size=1gb \
+    --device /dev/nvidia-modeset \
+    --runtime nvidia \
+    --gpus all \
+    -e AUTO_GPU=true \
+    -p 3001:3001 \
+    linuxserver/lm-studio bash
+  ```
+
+  ### AI tools included in this image
+
+  This image comes preloaded with a set of AI development and automation tools centered around LM Studio, enabling local model execution, and integration inside a KDE desktop environment.
+
+  At the core is LM Studio along with its developer ecosystem via lmstudio SDK, providing programmatic access to local models and workflows.
+
+  For AI-assisted coding and agentic workflows, the image includes:
+
+  * Aider (via `aider-install`) for git-aware code editing with LLM assistance (manual configuration required)
+  * Cline for agent style development inside development environments
+  * Code-OSS for a desktop IDE with AI plugin support
+  * OpenClaw for running autonomous AI agents that execute tasks through workflows and messaging based interaction
+  * OpenCode AI for code generation and refactoring
+
+  These tools are primarily **CLI and developer focused**, and are designed to be configured by the user from the terminal on first launch to connect to a local LM Studio backend.
+
+  Included is a desktop launcher for LLMster to provide the backend for these tools in the desktop environment in a headless manner. This can also be launched with `lms server start` from the command line or from the desktop application via the taskbar icon.
+
+  **Important notes:**
+
+  * LM Studio (the desktop application) and LLMster cannot be run at the same time, as they both manage overlapping runtime resources for local model access and will conflict if launched concurrently.
+  * All included AI tools require initial configuration to point to the active LM Studio backend before use.
+# changelog
+changelogs:
+  - {date: "22.06.26:", desc: "Initial release."}

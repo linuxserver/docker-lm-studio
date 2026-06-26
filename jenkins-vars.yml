@@ -1,0 +1,29 @@
+---
+
+# jenkins variables
+project_name: docker-lm-studio
+external_type: na
+custom_version_command: "curl -sX GET https://api.github.com/repos/linuxserver/docker-baseimage-selkies/releases | jq -r 'first(.[] | select(.tag_name | startswith(\"arch-\"))) | .tag_name' | sed 's|arch-||' | sed 's|-ls.*||'"
+release_type: stable
+release_tag: latest
+ls_branch: master
+build_armhf: false
+repo_vars:
+  - BUILD_VERSION_ARG = 'LMSTUDIO_VERSION'
+  - LS_USER = 'linuxserver'
+  - LS_REPO = 'docker-lm-studio'
+  - CONTAINER_NAME = 'lm-studio'
+  - DOCKERHUB_IMAGE = 'linuxserver/lm-studio'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/lm-studio'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/lm-studio'
+  - DIST_IMAGE = 'arch'
+  - MULTIARCH = 'false'
+  - CI = 'true'
+  - CI_WEB = 'true'
+  - CI_PORT = '3001'
+  - CI_SSL = 'true'
+  - CI_DELAY = '120'
+  - CI_WEB_SCREENSHOT_DELAY = '30'
+  - CI_DOCKERENV = 'TZ=US/Pacific'
+  - CI_AUTH = 'user:password'
+  - CI_WEBPATH = ''

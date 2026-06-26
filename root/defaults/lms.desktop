@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Start llmster
+Exec=/usr/bin/startlms
+Terminal=false
+Type=Application
+Icon=lm-studio
+StartupWMClass=LM-Studio
+Keywords=developer;llm;
+category=Development;Utility;
+Categories=Development;

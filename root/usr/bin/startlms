@@ -1,0 +1,34 @@
+#!/bin/bash
+
+# Check if LM Studio is already running
+if pgrep -x lm-studio >/dev/null 2>&1; then
+    kdialog --error "LM Studio is currently running. Please exit LM Studio before starting the standalone LMS server."
+    exit 1
+fi
+
+konsole --hold -e bash -c '
+echo "Starting LM Studio Server..."
+echo
+
+if lms server start; then
+    echo
+    echo "========================================================"
+    echo "LM Studio Server is now running!"
+    echo
+    echo "You can now connect AI-enabled applications to this host."
+    echo
+    echo "Common clients:"
+    echo "  • OpenCode"
+    echo "  • OpenClaw"
+    echo "  • Any OpenAI-compatible API client"
+    echo
+    echo "Default endpoint:"
+    echo "  http://localhost:1234"
+    echo
+    echo "This window can be closed."
+    echo "========================================================"
+else
+    echo
+    echo "Failed to start LM Studio Server."
+fi
+'
