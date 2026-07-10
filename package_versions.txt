@@ -2,7 +2,7 @@ NAME                                                                            
 @agentclientprotocol/sdk                                                             0.22.1                                                   npm                             
 @ai-sdk/amazon-bedrock                                                               4.0.133                                                  npm                             
 @ai-sdk/anthropic                                                                    3.0.96                                                   npm                             
-@ai-sdk/gateway                                                                      3.0.147                                                  npm                             
+@ai-sdk/gateway                                                                      3.0.148                                                  npm                             
 @ai-sdk/google                                                                       3.0.91                                                   npm                             
 @ai-sdk/google-vertex                                                                4.0.159                                                  npm                             
 @ai-sdk/mistral                                                                      3.0.48                                                   npm                             
@@ -386,7 +386,7 @@ agent-base                                                                      
 agent-base                                                                           7.1.4                                                    npm           (+2 duplicates)   
 agent-base                                                                           9.0.0                                                    npm           (+1 duplicate)    
 aho-corasick                                                                         1.1.4                                                    rust-crate    (+1 duplicate)    
-ai                                                                                   6.0.223                                                  npm                             
+ai                                                                                   6.0.224                                                  npm                             
 ai-prediction-api                                                                    1.0.0                                                    npm                             
 ai-sdk-provider-claude-code                                                          3.5.2                                                    npm                             
 ai-sdk-provider-codex-cli                                                            1.3.0                                                    npm                             
