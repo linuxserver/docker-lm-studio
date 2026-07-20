@@ -213,8 +213,8 @@ NAME                                                                            
 @openclaw/workboard                                                                  2026.7.1                                                 npm                             
 @openclaw/xai-plugin                                                                 2026.7.1                                                 npm                             
 @openclaw/xiaomi-provider                                                            2026.7.1                                                 npm                             
-@opencode-ai/plugin                                                                  1.18.3                                                   npm                             
-@opencode-ai/sdk                                                                     1.18.3                                                   npm           (+1 duplicate)    
+@opencode-ai/plugin                                                                  1.18.4                                                   npm                             
+@opencode-ai/sdk                                                                     1.18.4                                                   npm           (+1 duplicate)    
 @opentelemetry/api                                                                   1.9.0                                                    npm                             
 @opentelemetry/api                                                                   1.9.1                                                    npm                             
 @opentelemetry/api-logs                                                              0.212.0                                                  npm                             
@@ -1784,10 +1784,10 @@ libdecor                                                                        
 libdeflate                                                                           1.25-1                                                   alpm                            
 libdisplay-info                                                                      0.3.0-1                                                  alpm                            
 libdmtx                                                                              0.7.8-1                                                  alpm                            
-libdovi                                                                              3.3.2-2                                                  alpm                            
+libdovi                                                                              3.4.0-1                                                  alpm                            
 libdrm                                                                               2.4.134-1                                                alpm                            
 libdvdnav                                                                            7.0.0-1                                                  alpm                            
-libdvdread                                                                           7.1.0-1                                                  alpm                            
+libdvdread                                                                           7.1.1-1                                                  alpm                            
 libedit                                                                              20260512_3.1-1                                           alpm                            
 libei                                                                                1.6.0-1                                                  alpm                            
 libelf                                                                               0.195-1                                                  alpm                            
@@ -2183,9 +2183,9 @@ openbox                                                                         
 openbsd-netcat                                                                       1.238_1-1                                                alpm                            
 opencl-nvidia                                                                        610.43.03-3                                              alpm                            
 openclaw                                                                             2026.7.1-2                                               npm                             
-opencode-ai                                                                          1.18.3                                                   npm                             
-opencode-linux-x64                                                                   1.18.3                                                   npm                             
-opencode-linux-x64-baseline                                                          1.18.3                                                   npm                             
+opencode-ai                                                                          1.18.4                                                   npm                             
+opencode-linux-x64                                                                   1.18.4                                                   npm                             
+opencode-linux-x64-baseline                                                          1.18.4                                                   npm                             
 opencode-lmstudio                                                                    0.3.1                                                    npm                             
 opencore-amr                                                                         0.1.6-2                                                  alpm                            
 openh264                                                                             2.6.0-2                                                  alpm                            
@@ -2620,7 +2620,7 @@ sql                                                                             
 sqlite                                                                               3.53.3-1                                                 alpm                            
 sqlite-vec                                                                           0.1.9                                                    npm                             
 sqlite-vec-linux-x64                                                                 0.1.9                                                    npm                             
-srt                                                                                  1.5.5-1                                                  alpm                            
+srt                                                                                  1.5.6-1                                                  alpm                            
 ssh2                                                                                 1.17.0                                                   npm                             
 ssri                                                                                 14.0.0                                                   npm                             
 st                                                                                   0.9.3-1                                                  alpm                            
@@ -2657,7 +2657,7 @@ supports-color                                                                  
 supports-hyperlinks                                                                  3.2.0                                                    rust-crate    (+1 duplicate)    
 supports-preserve-symlinks-flag                                                      1.0.0                                                    npm                             
 supports-unicode                                                                     3.0.0                                                    rust-crate    (+1 duplicate)    
-svt-av1                                                                              4.1.0-1                                                  alpm                            
+svt-av1                                                                              4.2.0-1                                                  alpm                            
 swift                                                                                10.0.0                                                   npm                             
 syn                                                                                  2.0.118                                                  rust-crate    (+1 duplicate)    
 sync_wrapper                                                                         1.0.2                                                    rust-crate    (+1 duplicate)    
@@ -2668,7 +2668,7 @@ systemd                                                                         
 systemd-libs                                                                         261.1-1                                                  alpm                            
 systemsettings                                                                       6.7.3-1                                                  alpm                            
 tabbable                                                                             5.3.3                                                    npm                             
-taglib                                                                               2.3-1                                                    alpm                            
+taglib                                                                               2.3.1-1                                                  alpm                            
 tags.cncf.io/container-device-interface                                              v1.1.0                                                   go-module     (+2 duplicates)   
 tags.cncf.io/container-device-interface/specs-go                                     v1.1.0                                                   go-module     (+1 duplicate)    
 tailscale.com                                                                        v1.90.2                                                  go-module     (+1 duplicate)    
