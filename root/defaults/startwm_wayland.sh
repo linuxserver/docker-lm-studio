@@ -93,6 +93,7 @@ export XDG_SESSION_TYPE=wayland
 export KDE_SESSION_VERSION=6
 export DISPLAY=:0
 export SHELL=/bin/bash
+export MOZ_ENABLE_WAYLAND=0
 sudo mkdir -p /tmp/.X11-unix
 sudo chmod 1777 /tmp/.X11-unix
 dbus-run-session bash -c '
