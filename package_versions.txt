@@ -213,8 +213,8 @@ NAME                                                                            
 @openclaw/workboard                                                                  2026.7.1                                                 npm                             
 @openclaw/xai-plugin                                                                 2026.7.1                                                 npm                             
 @openclaw/xiaomi-provider                                                            2026.7.1                                                 npm                             
-@opencode-ai/plugin                                                                  1.18.4                                                   npm                             
-@opencode-ai/sdk                                                                     1.18.4                                                   npm           (+1 duplicate)    
+@opencode-ai/plugin                                                                  1.18.5                                                   npm                             
+@opencode-ai/sdk                                                                     1.18.5                                                   npm           (+1 duplicate)    
 @opentelemetry/api                                                                   1.9.0                                                    npm                             
 @opentelemetry/api                                                                   1.9.1                                                    npm                             
 @opentelemetry/api-logs                                                              0.212.0                                                  npm                             
@@ -2187,9 +2187,9 @@ openbox                                                                         
 openbsd-netcat                                                                       1.238_1-1                                                alpm                            
 opencl-nvidia                                                                        610.43.03-3                                              alpm                            
 openclaw                                                                             2026.7.1-2                                               npm                             
-opencode-ai                                                                          1.18.4                                                   npm                             
-opencode-linux-x64                                                                   1.18.4                                                   npm                             
-opencode-linux-x64-baseline                                                          1.18.4                                                   npm                             
+opencode-ai                                                                          1.18.5                                                   npm                             
+opencode-linux-x64                                                                   1.18.5                                                   npm                             
+opencode-linux-x64-baseline                                                          1.18.5                                                   npm                             
 opencode-lmstudio                                                                    0.3.1                                                    npm                             
 opencore-amr                                                                         0.1.6-2                                                  alpm                            
 openh264                                                                             2.6.0-2                                                  alpm                            
