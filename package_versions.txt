@@ -1,12 +1,12 @@
 NAME                                                                                 VERSION                                                  TYPE                           
 @agentclientprotocol/sdk                                                             1.1.0                                                    npm                             
-@ai-sdk/amazon-bedrock                                                               4.0.137                                                  npm                             
-@ai-sdk/anthropic                                                                    3.0.98                                                   npm                             
-@ai-sdk/gateway                                                                      3.0.153                                                  npm                             
-@ai-sdk/google                                                                       3.0.95                                                   npm                             
-@ai-sdk/google-vertex                                                                4.0.164                                                  npm                             
+@ai-sdk/amazon-bedrock                                                               4.0.141                                                  npm                             
+@ai-sdk/anthropic                                                                    3.0.102                                                  npm                             
+@ai-sdk/gateway                                                                      3.0.157                                                  npm                             
+@ai-sdk/google                                                                       3.0.101                                                  npm                             
+@ai-sdk/google-vertex                                                                4.0.171                                                  npm                             
 @ai-sdk/mistral                                                                      3.0.51                                                   npm                             
-@ai-sdk/openai                                                                       3.0.86                                                   npm                             
+@ai-sdk/openai                                                                       3.0.88                                                   npm                             
 @ai-sdk/openai-compatible                                                            2.0.62                                                   npm                             
 @ai-sdk/provider                                                                     2.0.3                                                    npm                             
 @ai-sdk/provider                                                                     3.0.14                                                   npm                             
@@ -17,22 +17,22 @@ NAME                                                                            
 @anthropic-ai/sdk                                                                    0.109.1                                                  npm                             
 @anthropic-ai/sdk                                                                    0.81.0                                                   npm                             
 @anthropic-ai/sdk                                                                    0.82.0                                                   npm           (+1 duplicate)    
-@aws-sdk/core                                                                        3.975.3                                                  npm                             
-@aws-sdk/credential-provider-cognito-identity                                        3.972.58                                                 npm                             
-@aws-sdk/credential-provider-env                                                     3.972.59                                                 npm                             
-@aws-sdk/credential-provider-http                                                    3.972.61                                                 npm                             
-@aws-sdk/credential-provider-ini                                                     3.973.4                                                  npm                             
-@aws-sdk/credential-provider-login                                                   3.972.66                                                 npm                             
-@aws-sdk/credential-provider-node                                                    3.972.70                                                 npm                             
-@aws-sdk/credential-provider-process                                                 3.972.59                                                 npm                             
-@aws-sdk/credential-provider-sso                                                     3.973.3                                                  npm                             
-@aws-sdk/credential-provider-web-identity                                            3.972.65                                                 npm                             
-@aws-sdk/credential-providers                                                        3.1090.0                                                 npm                             
-@aws-sdk/nested-clients                                                              3.997.33                                                 npm                             
-@aws-sdk/signature-v4-multi-region                                                   3.996.41                                                 npm                             
-@aws-sdk/token-providers                                                             3.1088.0                                                 npm                             
+@aws-sdk/core                                                                        3.977.0                                                  npm                             
+@aws-sdk/credential-provider-cognito-identity                                        3.972.60                                                 npm                             
+@aws-sdk/credential-provider-env                                                     3.972.61                                                 npm                             
+@aws-sdk/credential-provider-http                                                    3.972.63                                                 npm                             
+@aws-sdk/credential-provider-ini                                                     3.973.6                                                  npm                             
+@aws-sdk/credential-provider-login                                                   3.972.68                                                 npm                             
+@aws-sdk/credential-provider-node                                                    3.972.72                                                 npm                             
+@aws-sdk/credential-provider-process                                                 3.972.61                                                 npm                             
+@aws-sdk/credential-provider-sso                                                     3.973.5                                                  npm                             
+@aws-sdk/credential-provider-web-identity                                            3.972.67                                                 npm                             
+@aws-sdk/credential-providers                                                        3.1095.0                                                 npm                             
+@aws-sdk/nested-clients                                                              3.997.35                                                 npm                             
+@aws-sdk/signature-v4-multi-region                                                   3.996.42                                                 npm                             
+@aws-sdk/token-providers                                                             3.1095.0                                                 npm                             
 @aws-sdk/types                                                                       3.974.2                                                  npm                             
-@aws-sdk/xml-builder                                                                 3.972.36                                                 npm                             
+@aws-sdk/xml-builder                                                                 3.972.37                                                 npm                             
 @aws/lambda-invoke-store                                                             0.3.0                                                    npm                             
 @azure/abort-controller                                                              2.1.2                                                    npm           (+1 duplicate)    
 @azure/core-auth                                                                     1.10.1                                                   npm           (+1 duplicate)    
@@ -79,7 +79,7 @@ NAME                                                                            
 @grpc/proto-loader                                                                   0.8.0                                                    npm                             
 @homebridge/ciao                                                                     1.3.9                                                    npm                             
 @hono/node-server                                                                    1.19.13                                                  npm                             
-@hono/node-server                                                                    1.19.14                                                  npm           (+1 duplicate)    
+@hono/node-server                                                                    1.19.15                                                  npm           (+1 duplicate)    
 @humanwhocodes/gitignore-to-minimatch                                                1.0.2                                                    npm                             
 @img/sharp-libvips-linux-x64                                                         1.2.4                                                    npm                             
 @img/sharp-libvips-linuxmusl-x64                                                     1.2.4                                                    npm                             
@@ -219,12 +219,12 @@ NAME                                                                            
 @opentelemetry/api                                                                   1.9.1                                                    npm                             
 @opentelemetry/api-logs                                                              0.212.0                                                  npm                             
 @opentelemetry/api-logs                                                              0.214.0                                                  npm           (+4 duplicates)   
+@opentelemetry/context-async-hooks                                                   2.10.0                                                   npm                             
 @opentelemetry/context-async-hooks                                                   2.5.1                                                    npm                             
-@opentelemetry/context-async-hooks                                                   2.9.0                                                    npm                             
 @opentelemetry/core                                                                  1.30.1                                                   npm                             
+@opentelemetry/core                                                                  2.10.0                                                   npm                             
 @opentelemetry/core                                                                  2.5.1                                                    npm           (+2 duplicates)   
 @opentelemetry/core                                                                  2.6.1                                                    npm           (+18 duplicates)  
-@opentelemetry/core                                                                  2.9.0                                                    npm                             
 @opentelemetry/exporter-logs-otlp-grpc                                               0.214.0                                                  npm                             
 @opentelemetry/exporter-logs-otlp-http                                               0.214.0                                                  npm           (+1 duplicate)    
 @opentelemetry/exporter-logs-otlp-proto                                              0.214.0                                                  npm                             
@@ -239,20 +239,20 @@ NAME                                                                            
 @opentelemetry/otlp-grpc-exporter-base                                               0.214.0                                                  npm                             
 @opentelemetry/otlp-transformer                                                      0.214.0                                                  npm           (+1 duplicate)    
 @opentelemetry/resources                                                             1.30.1                                                   npm                             
+@opentelemetry/resources                                                             2.10.0                                                   npm                             
 @opentelemetry/resources                                                             2.5.1                                                    npm                             
 @opentelemetry/resources                                                             2.6.1                                                    npm           (+14 duplicates)  
-@opentelemetry/resources                                                             2.9.0                                                    npm                             
 @opentelemetry/sdk-logs                                                              0.212.0                                                  npm                             
 @opentelemetry/sdk-logs                                                              0.214.0                                                  npm           (+4 duplicates)   
+@opentelemetry/sdk-metrics                                                           2.10.0                                                   npm                             
 @opentelemetry/sdk-metrics                                                           2.6.1                                                    npm           (+2 duplicates)   
-@opentelemetry/sdk-metrics                                                           2.9.0                                                    npm                             
-@opentelemetry/sdk-trace                                                             2.9.0                                                    npm                             
+@opentelemetry/sdk-trace                                                             2.10.0                                                   npm                             
 @opentelemetry/sdk-trace-base                                                        1.30.1                                                   npm                             
+@opentelemetry/sdk-trace-base                                                        2.10.0                                                   npm                             
 @opentelemetry/sdk-trace-base                                                        2.5.1                                                    npm                             
 @opentelemetry/sdk-trace-base                                                        2.6.1                                                    npm           (+6 duplicates)   
-@opentelemetry/sdk-trace-base                                                        2.9.0                                                    npm                             
+@opentelemetry/sdk-trace-node                                                        2.10.0                                                   npm                             
 @opentelemetry/sdk-trace-node                                                        2.5.1                                                    npm                             
-@opentelemetry/sdk-trace-node                                                        2.9.0                                                    npm                             
 @opentelemetry/semantic-conventions                                                  1.28.0                                                   npm           (+1 duplicate)    
 @opentelemetry/semantic-conventions                                                  1.39.0                                                   npm                             
 @opentelemetry/semantic-conventions                                                  1.43.0                                                   npm           (+1 duplicate)    
@@ -279,11 +279,11 @@ NAME                                                                            
 @sap-ai-sdk/foundation-models                                                        2.13.0                                                   npm                             
 @sap-ai-sdk/orchestration                                                            2.13.0                                                   npm                             
 @sap-ai-sdk/prompt-registry                                                          2.13.0                                                   npm                             
-@sap-cloud-sdk/connectivity                                                          4.7.0                                                    npm                             
-@sap-cloud-sdk/http-client                                                           4.7.0                                                    npm                             
-@sap-cloud-sdk/openapi                                                               4.7.0                                                    npm                             
-@sap-cloud-sdk/resilience                                                            4.7.0                                                    npm                             
-@sap-cloud-sdk/util                                                                  4.7.0                                                    npm                             
+@sap-cloud-sdk/connectivity                                                          4.8.0                                                    npm                             
+@sap-cloud-sdk/http-client                                                           4.8.0                                                    npm                             
+@sap-cloud-sdk/openapi                                                               4.8.0                                                    npm                             
+@sap-cloud-sdk/resilience                                                            4.8.0                                                    npm                             
+@sap-cloud-sdk/util                                                                  4.8.0                                                    npm                             
 @sap/xsenv                                                                           6.2.1                                                    npm                             
 @sap/xssec                                                                           4.13.3                                                   npm                             
 @sigstore/bundle                                                                     5.0.0                                                    npm                             
@@ -296,14 +296,14 @@ NAME                                                                            
 @simple-git/args-pathspec                                                            1.0.3                                                    npm                             
 @simple-git/argv-parser                                                              1.1.1                                                    npm                             
 @sinclair/typebox                                                                    0.34.41                                                  npm                             
-@smithy/core                                                                         3.29.5                                                   npm                             
-@smithy/credential-provider-imds                                                     4.4.10                                                   npm                             
-@smithy/eventstream-codec                                                            4.4.10                                                   npm                             
-@smithy/fetch-http-handler                                                           5.6.7                                                    npm                             
-@smithy/node-http-handler                                                            4.9.7                                                    npm                             
-@smithy/signature-v4                                                                 5.6.6                                                    npm                             
+@smithy/core                                                                         3.29.8                                                   npm                             
+@smithy/credential-provider-imds                                                     4.4.13                                                   npm                             
+@smithy/eventstream-codec                                                            4.4.13                                                   npm                             
+@smithy/fetch-http-handler                                                           5.6.10                                                   npm                             
+@smithy/node-http-handler                                                            4.9.10                                                   npm                             
+@smithy/signature-v4                                                                 5.6.9                                                    npm                             
 @smithy/types                                                                        4.16.1                                                   npm                             
-@smithy/util-utf8                                                                    4.4.10                                                   npm                             
+@smithy/util-utf8                                                                    4.4.13                                                   npm                             
 @so-ric/colorspace                                                                   1.1.6                                                    npm                             
 @stablelib/base64                                                                    1.0.1                                                    npm                             
 @standard-schema/spec                                                                1.1.0                                                    npm           (+1 duplicate)    
@@ -385,14 +385,14 @@ agent-base                                                                      
 agent-base                                                                           7.1.4                                                    npm           (+2 duplicates)   
 agent-base                                                                           9.0.0                                                    npm           (+1 duplicate)    
 aho-corasick                                                                         1.1.4                                                    rust-crate    (+1 duplicate)    
-ai                                                                                   6.0.230                                                  npm                             
+ai                                                                                   6.0.235                                                  npm                             
 ai-prediction-api                                                                    1.0.0                                                    npm                             
 ai-sdk-ollama                                                                        3.8.8                                                    npm                             
 ai-sdk-provider-opencode-sdk                                                         3.0.6                                                    npm                             
 aider-install                                                                        0.2.0                                                    python                          
 aiofiles                                                                             25.1.0                                                   python                          
 aiohappyeyeballs                                                                     2.7.1                                                    python                          
-aiohttp                                                                              3.14.1                                                   python                          
+aiohttp                                                                              3.14.3                                                   python                          
 aioice                                                                               0.10.2                                                   python                          
 aiosignal                                                                            1.4.0                                                    python                          
 ajv                                                                                  8.18.0                                                   npm                             
@@ -422,12 +422,12 @@ anyhow                                                                          
 anyio                                                                                4.14.2                                                   python                          
 aom                                                                                  3.14.1-1                                                 alpm                            
 applicationinsights                                                                  2.9.7                                                    npm                             
-appstream                                                                            1.1.3-1                                                  alpm                            
-appstream-qt                                                                         1.1.3-1                                                  alpm                            
+appstream                                                                            1.1.5-1                                                  alpm                            
+appstream-qt                                                                         1.1.5-1                                                  alpm                            
 aproba                                                                               2.1.0                                                    npm                             
 archiver                                                                             7.0.1                                                    npm                             
 archiver-utils                                                                       5.0.2                                                    npm                             
-archlinux-appstream-data                                                             20260606-1                                               alpm                            
+archlinux-appstream-data                                                             20260722-1                                               alpm                            
 archlinux-keyring                                                                    20260707.1-1                                             alpm                            
 archy                                                                                1.0.0                                                    npm                             
 arcstr                                                                               1.2.0                                                    rust-crate    (+1 duplicate)    
@@ -519,7 +519,7 @@ bn.js                                                                           
 body-parser                                                                          2.2.2                                                    npm                             
 body-parser                                                                          2.3.0                                                    npm           (+1 duplicate)    
 boolbase                                                                             1.0.0                                                    npm           (+1 duplicate)    
-boost-libs                                                                           1.91.0-1                                                 alpm                            
+boost-libs                                                                           1.91.0-2                                                 alpm                            
 borrow-or-share                                                                      0.2.4                                                    rust-crate    (+1 duplicate)    
 bottleneck                                                                           2.19.5                                                   npm                             
 bowser                                                                               2.14.1                                                   npm                             
@@ -527,7 +527,8 @@ boxcar                                                                          
 brace-expansion                                                                      1.1.13                                                   npm                             
 brace-expansion                                                                      2.1.1                                                    npm           (+1 duplicate)    
 brace-expansion                                                                      5.0.6                                                    npm                             
-brace-expansion                                                                      5.0.7                                                    npm           (+1 duplicate)    
+brace-expansion                                                                      5.0.7                                                    npm                             
+brace-expansion                                                                      5.0.8                                                    npm                             
 breeze                                                                               6.7.3-1                                                  alpm                            
 breeze-cursors                                                                       6.7.3-1                                                  alpm                            
 breeze-icons                                                                         6.28.0-1                                                 alpm                            
@@ -548,14 +549,14 @@ busybox                                                                         
 bytecheck                                                                            0.8.2                                                    rust-crate    (+1 duplicate)    
 bytemuck                                                                             1.25.0                                                   rust-crate    (+1 duplicate)    
 byteorder-lite                                                                       0.1.0                                                    rust-crate    (+1 duplicate)    
-bytes                                                                                1.12.0                                                   rust-crate    (+1 duplicate)    
+bytes                                                                                1.12.1                                                   rust-crate    (+1 duplicate)    
 bytes                                                                                3.1.2                                                    npm           (+2 duplicates)   
 bzip2                                                                                0.5.2                                                    rust-crate    (+1 duplicate)    
 bzip2                                                                                1.0.8-6                                                  alpm                            
 bzip2-sys                                                                            0.1.13+1.0.8                                             rust-crate    (+1 duplicate)    
 c-ares                                                                               1.34.8-1                                                 alpm                            
 ca-certificates                                                                      20240618-1                                               alpm                            
-ca-certificates-mozilla                                                              3.125-1                                                  alpm                            
+ca-certificates-mozilla                                                              3.126-1                                                  alpm                            
 ca-certificates-utils                                                                20240618-1                                               alpm                            
 cacache                                                                              21.0.1                                                   npm                             
 cairo                                                                                1.18.4-1                                                 alpm                            
@@ -568,7 +569,7 @@ catatonit                                                                       
 cbc                                                                                  0.1.2                                                    rust-crate    (+1 duplicate)    
 cccl                                                                                 3.4.0-1                                                  alpm                            
 cel.dev/expr                                                                         v0.25.1                                                  go-module                       
-certifi                                                                              2026.6.17                                                python                          
+certifi                                                                              2026.7.22                                                python                          
 cffi                                                                                 2.1.0                                                    python        (+1 duplicate)    
 cfg-if                                                                               1.0.4                                                    rust-crate    (+1 duplicate)    
 chalk                                                                                2.4.2                                                    npm                             
@@ -580,7 +581,7 @@ cheerio-select                                                                  
 chokidar                                                                             5.0.0                                                    npm                             
 chownr                                                                               3.0.0                                                    npm           (+3 duplicates)   
 chrome-remote-interface                                                              0.33.0                                                   npm                             
-chromium                                                                             150.0.7871.128-1                                         alpm                            
+chromium                                                                             150.0.7871.186-1                                         alpm                            
 ci-info                                                                              4.4.0                                                    npm                             
 cidr-regex                                                                           6.0.0                                                    npm                             
 cifs-utils                                                                           7.5-1                                                    alpm                            
@@ -612,8 +613,9 @@ cloud.google.com/go/longrunning                                                 
 cloud.google.com/go/monitoring                                                       v1.24.3                                                  go-module                       
 cloud.google.com/go/storage                                                          v1.61.3                                                  go-module                       
 cls-hooked                                                                           4.2.2                                                    npm                             
-cmake                                                                                4.4.0-1                                                  alpm                            
+cmake                                                                                4.4.0-2                                                  alpm                            
 cmd-shim                                                                             9.0.2                                                    npm                             
+cmov                                                                                 0.5.4                                                    rust-crate    (+1 duplicate)    
 cockatiel                                                                            3.2.1                                                    npm                             
 code                                                                                 1.127.0-1                                                alpm                            
 coffeescript                                                                         10.0.0                                                   npm                             
@@ -623,7 +625,7 @@ color-convert                                                                   
 color-convert                                                                        3.1.3                                                    npm                             
 color-name                                                                           1.1.3                                                    npm                             
 color-name                                                                           1.1.4                                                    npm           (+3 duplicates)   
-color-name                                                                           2.1.0                                                    npm                             
+color-name                                                                           2.1.1                                                    npm                             
 color-string                                                                         2.1.4                                                    npm                             
 colorchoice                                                                          1.0.5                                                    rust-crate    (+1 duplicate)    
 combined-stream                                                                      1.0.8                                                    npm           (+1 duplicate)    
@@ -676,7 +678,7 @@ crossbeam-utils                                                                 
 crypto-common                                                                        0.1.7                                                    rust-crate    (+1 duplicate)    
 crypto-common                                                                        0.2.2                                                    rust-crate    (+1 duplicate)    
 cryptography                                                                         49.0.0                                                   python        (+1 duplicate)    
-cryptsetup                                                                           2.8.6-1                                                  alpm                            
+cryptsetup                                                                           2.8.7-1                                                  alpm                            
 csharp                                                                               10.0.0                                                   npm                             
 css                                                                                  10.0.0                                                   npm                             
 css-language-features                                                                10.0.0                                                   npm                             
@@ -689,6 +691,7 @@ cssom                                                                           
 csv                                                                                  1.4.0                                                    rust-crate    (+1 duplicate)    
 csv-core                                                                             0.1.13                                                   rust-crate    (+1 duplicate)    
 ctrlc                                                                                3.5.2                                                    rust-crate    (+1 duplicate)    
+ctutils                                                                              0.4.2                                                    rust-crate    (+1 duplicate)    
 cuda                                                                                 13.3.1-1                                                 alpm                            
 curl                                                                                 8.21.0-1                                                 alpm                            
 cyclonedx-bom                                                                        0.8.1                                                    rust-crate    (+1 duplicate)    
@@ -781,7 +784,7 @@ editorconfig-core-c                                                             
 ee-first                                                                             1.1.1                                                    npm           (+2 duplicates)   
 effect                                                                               4.0.0-beta.83                                            npm                             
 either                                                                               1.16.0                                                   rust-crate    (+1 duplicate)    
-electron42                                                                           42.7.0-1                                                 alpm                            
+electron42                                                                           42.7.1-1                                                 alpm                            
 elfutils                                                                             0.195-1                                                  alpm                            
 emitter-listener                                                                     1.1.2                                                    npm                             
 emmet                                                                                10.0.0                                                   npm                             
@@ -879,7 +882,7 @@ foldhash                                                                        
 foldhash                                                                             0.2.0                                                    rust-crate    (+1 duplicate)    
 follow-redirects                                                                     1.16.0                                                   npm           (+1 duplicate)    
 fontconfig                                                                           2:2.18.2-1                                               alpm                            
-foot                                                                                 1.27.0-1                                                 alpm                            
+foot                                                                                 1.27.0-2                                                 alpm                            
 foreground-child                                                                     3.1.1                                                    npm                             
 form-data                                                                            4.0.6                                                    npm           (+1 duplicate)    
 form_urlencoded                                                                      1.2.2                                                    rust-crate    (+1 duplicate)    
@@ -912,7 +915,7 @@ futures-task                                                                    
 futures-util                                                                         0.3.32                                                   rust-crate    (+1 duplicate)    
 gawk                                                                                 5.4.1-1                                                  alpm                            
 gaxios                                                                               6.7.1                                                    npm                             
-gaxios                                                                               7.2.0                                                    npm           (+1 duplicate)    
+gaxios                                                                               7.3.0                                                    npm           (+1 duplicate)    
 gc                                                                                   8.2.12-1                                                 alpm                            
 gcc                                                                                  16.1.1+r346+g4e03491b401d-4                              alpm                            
 gcc-libs                                                                             16.1.1+r346+g4e03491b401d-4                              alpm                            
@@ -933,7 +936,7 @@ getrandom                                                                       
 getrandom                                                                            0.3.4                                                    rust-crate    (+1 duplicate)    
 getrandom                                                                            0.4.3                                                    rust-crate    (+1 duplicate)    
 gettext                                                                              1.0-2                                                    alpm                            
-giflib                                                                               6.1.3-1                                                  alpm                            
+giflib                                                                               6.1.3-2                                                  alpm                            
 git                                                                                  10.0.0                                                   npm                             
 git                                                                                  2.55.0-1                                                 alpm                            
 git-base                                                                             10.0.0                                                   npm                             
@@ -1394,7 +1397,7 @@ golang.org/x/text                                                               
 golang.org/x/text                                                                    v0.38.0                                                  go-module     (+3 duplicates)   
 golang.org/x/time                                                                    v0.11.0                                                  go-module     (+1 duplicate)    
 golang.org/x/time                                                                    v0.15.0                                                  go-module     (+2 duplicates)   
-google-auth-library                                                                  10.9.0                                                   npm           (+1 duplicate)    
+google-auth-library                                                                  10.9.1                                                   npm           (+1 duplicate)    
 google-auth-library                                                                  9.15.1                                                   npm                             
 google-crc32c                                                                        1.8.0                                                    python                          
 google-logging-utils                                                                 0.0.2                                                    npm                             
@@ -1471,9 +1474,10 @@ highway                                                                         
 hkdf                                                                                 0.12.4                                                   rust-crate    (+1 duplicate)    
 hlsl                                                                                 10.0.0                                                   npm                             
 hmac                                                                                 0.12.1                                                   rust-crate    (+1 duplicate)    
+hmac                                                                                 0.13.0                                                   rust-crate    (+1 duplicate)    
 homedir                                                                              0.3.6                                                    rust-crate    (+1 duplicate)    
 hono                                                                                 4.12.25                                                  npm                             
-hono                                                                                 4.12.31                                                  npm           (+1 duplicate)    
+hono                                                                                 4.12.32                                                  npm           (+1 duplicate)    
 hosted-git-info                                                                      10.1.1                                                   npm           (+1 duplicate)    
 hosted-git-info                                                                      4.1.0                                                    npm                             
 html                                                                                 10.0.0                                                   npm                             
@@ -1481,7 +1485,7 @@ html-escape                                                                     
 html-escaper                                                                         3.0.3                                                    npm                             
 html-language-features                                                               10.0.0                                                   npm                             
 htmlparser2                                                                          10.1.0                                                   npm           (+1 duplicate)    
-http                                                                                 1.4.1                                                    rust-crate    (+1 duplicate)    
+http                                                                                 1.4.2                                                    rust-crate    (+1 duplicate)    
 http-body                                                                            1.0.1                                                    rust-crate    (+1 duplicate)    
 http-body-util                                                                       0.1.3                                                    rust-crate    (+1 duplicate)    
 http-cache-semantics                                                                 4.2.0                                                    npm                             
@@ -1523,7 +1527,7 @@ idna                                                                            
 idna_adapter                                                                         1.2.1                                                    rust-crate    (+1 duplicate)    
 ieee754                                                                              1.2.1                                                    npm           (+1 duplicate)    
 ifaddr                                                                               0.2.0                                                    python                          
-ignore                                                                               0.4.27                                                   rust-crate    (+1 duplicate)    
+ignore                                                                               0.4.28                                                   rust-crate    (+1 duplicate)    
 ignore                                                                               7.0.5                                                    npm           (+1 duplicate)    
 ignore-walk                                                                          9.0.0                                                    npm                             
 iio-sensor-proxy                                                                     3.9-1                                                    alpm                            
@@ -1592,13 +1596,13 @@ java                                                                            
 javascript                                                                           10.0.0                                                   npm                             
 jbigkit                                                                              2.1-8                                                    alpm                            
 jemalloc                                                                             1:5.3.1-2                                                alpm                            
-jiff                                                                                 0.2.31                                                   rust-crate    (+1 duplicate)    
+jiff                                                                                 0.2.32                                                   rust-crate    (+1 duplicate)    
 jinja2                                                                               3.1.6                                                    python                          
 jiti                                                                                 2.7.0                                                    npm           (+1 duplicate)    
 jks-js                                                                               1.1.7                                                    npm                             
 jobserver                                                                            0.1.35                                                   rust-crate    (+1 duplicate)    
 jose                                                                                 6.1.3                                                    npm                             
-jose                                                                                 6.2.3                                                    npm           (+1 duplicate)    
+jose                                                                                 6.2.4                                                    npm           (+1 duplicate)    
 jpegxl                                                                               UNKNOWN                                                  java-archive                    
 jq                                                                                   1.8.1                                                    binary                          
 jq                                                                                   1.8.2-1                                                  alpm                            
@@ -1625,7 +1629,6 @@ jsonfile                                                                        
 jsonparse                                                                            1.3.1                                                    npm                             
 jsonrepair                                                                           3.15.0                                                   npm                             
 jsonschema                                                                           1.5.0                                                    npm                             
-jsonwebtoken                                                                         10.3.0                                                   rust-crate    (+1 duplicate)    
 jsonwebtoken                                                                         9.0.3                                                    npm           (+1 duplicate)    
 jszip                                                                                3.10.1                                                   npm                             
 julia                                                                                10.0.0                                                   npm                             
@@ -1692,7 +1695,7 @@ kio                                                                             
 kio-extras                                                                           26.04.3-1                                                alpm                            
 kio-fuse                                                                             5.1.1-2                                                  alpm                            
 kirigami                                                                             6.28.0-1                                                 alpm                            
-kirigami-addons                                                                      1.13.0-1                                                 alpm                            
+kirigami-addons                                                                      1.13.1-1                                                 alpm                            
 kitemmodels                                                                          6.28.0-1                                                 alpm                            
 kitemviews                                                                           6.28.0-1                                                 alpm                            
 kjobwidgets                                                                          6.28.0-1                                                 alpm                            
@@ -1731,7 +1734,7 @@ kxmlgui                                                                         
 kysely                                                                               0.29.2                                                   npm                             
 l-smash                                                                              2.14.5-4                                                 alpm                            
 labwc                                                                                0.20.1-1                                                 alpm                            
-lame                                                                                 3.101.r6531-2                                            alpm                            
+lame                                                                                 4.0-1                                                    alpm                            
 latex                                                                                10.0.0                                                   npm                             
 layer-shell-qt                                                                       6.7.3-1                                                  alpm                            
 lazy_static                                                                          1.5.0                                                    rust-crate    (+1 duplicate)    
@@ -1886,7 +1889,7 @@ libsodium                                                                       
 libsoup3                                                                             3.6.6-2                                                  alpm                            
 libsoxr                                                                              0.1.3-5                                                  alpm                            
 libssc                                                                               0.4.4-1                                                  alpm                            
-libssh                                                                               0.12.0-1                                                 alpm                            
+libssh                                                                               0.12.1-1                                                 alpm                            
 libssh2                                                                              1.11.1-6                                                 alpm                            
 libstdc++                                                                            16.1.1+r346+g4e03491b401d-4                              alpm                            
 libstemmer                                                                           3.1.1-1                                                  alpm                            
@@ -1898,7 +1901,7 @@ libtheora                                                                       
 libtiff                                                                              4.7.2-1                                                  alpm                            
 libtirpc                                                                             1.3.7-1                                                  alpm                            
 libtommath                                                                           1.3.0-2                                                  alpm                            
-libtool                                                                              2.6.1-2                                                  alpm                            
+libtool                                                                              2.6.2-1                                                  alpm                            
 libtsan                                                                              16.1.1+r346+g4e03491b401d-4                              alpm                            
 libubsan                                                                             16.1.1+r346+g4e03491b401d-4                              alpm                            
 libunibreak                                                                          7.0-1                                                    alpm                            
@@ -1916,7 +1919,7 @@ libverto                                                                        
 libvorbis                                                                            1.3.7-4                                                  alpm                            
 libvpl                                                                               2.17.0-1                                                 alpm                            
 libvpx                                                                               1.16.0-3                                                 alpm                            
-libwacom                                                                             2.19.0-1                                                 alpm                            
+libwacom                                                                             2.19.1-1                                                 alpm                            
 libwbclient                                                                          2:4.24.4-1                                               alpm                            
 libwebp                                                                              1.6.0-2                                                  alpm                            
 libwireplumber                                                                       0.5.15-1                                                 alpm                            
@@ -1961,7 +1964,7 @@ linkedom                                                                        
 linkify-it                                                                           3.0.3                                                    npm                             
 linkify-it                                                                           5.0.0                                                    npm                             
 linux-api-headers                                                                    7.1-1                                                    alpm                            
-linux-headers                                                                        7.1.3.arch2-2                                            alpm                            
+linux-headers                                                                        7.1.4.arch1-1                                            alpm                            
 linux-raw-sys                                                                        0.12.1                                                   rust-crate    (+1 duplicate)    
 linux-raw-sys                                                                        0.4.15                                                   rust-crate    (+1 duplicate)    
 litehtml0.9                                                                          0.9-2                                                    alpm                            
@@ -1969,7 +1972,7 @@ litemap                                                                         
 lld                                                                                  22.1.8-1                                                 alpm                            
 llhttp                                                                               9.3.1-1                                                  alpm                            
 llvm-libs                                                                            22.1.8-2                                                 alpm                            
-lm-studio                                                                            0.4.19+2                                                 npm                             
+lm-studio                                                                            0.4.20+1                                                 npm                             
 lm_sensors                                                                           1:3.6.2-1                                                alpm                            
 lmdb                                                                                 0.9.35-1                                                 alpm                            
 lmstudio                                                                             1.5.0                                                    python                          
@@ -2027,8 +2030,9 @@ mdurl                                                                           
 mdurl                                                                                2.0.0                                                    npm                             
 media-player-info                                                                    26-1                                                     alpm                            
 media-preview                                                                        10.0.0                                                   npm                             
-media-typer                                                                          1.1.0                                                    npm           (+2 duplicates)   
-memchr                                                                               2.8.2                                                    rust-crate    (+1 duplicate)    
+media-typer                                                                          1.1.0                                                    npm                             
+media-typer                                                                          1.1.1                                                    npm           (+1 duplicate)    
+memchr                                                                               2.8.3                                                    rust-crate    (+1 duplicate)    
 memmap2                                                                              0.9.10                                                   rust-crate    (+1 duplicate)    
 merge-conflict                                                                       10.0.0                                                   npm                             
 merge-descriptors                                                                    2.0.0                                                    npm           (+2 duplicates)   
@@ -2100,7 +2104,7 @@ nettle                                                                          
 next-tick                                                                            1.1.0                                                    npm                             
 nftables                                                                             0.1                                                      python                          
 nftables                                                                             1:1.1.6-3                                                alpm                            
-nginx                                                                                1.30.3-1                                                 alpm                            
+nginx                                                                                1.30.4-1                                                 alpm                            
 nginx-mod-fancyindex                                                                 0.5.2-1                                                  alpm                            
 nginx-mod-fancyindex-debug                                                           0.5.2-1                                                  alpm                            
 nix                                                                                  0.30.1                                                   rust-crate    (+1 duplicate)    
@@ -2124,7 +2128,7 @@ node-machine-id                                                                 
 node-ovsx-sign                                                                       1.2.0                                                    npm                             
 node-pty                                                                             1.2.0-beta.13                                            npm                             
 node-rsa                                                                             1.1.1                                                    npm                             
-nodejs                                                                               26.4.0-1                                                 alpm                            
+nodejs                                                                               26.5.0-1                                                 alpm                            
 nodejs-nopt                                                                          10.0.1-1                                                 alpm                            
 nom                                                                                  7.1.3                                                    rust-crate    (+1 duplicate)    
 nopt                                                                                 10.0.1                                                   npm                             
@@ -2148,7 +2152,7 @@ npm-registry-fetch                                                              
 npm-user-validate                                                                    5.0.0                                                    npm                             
 npth                                                                                 1.8-1                                                    alpm                            
 nspr                                                                                 4.39-1                                                   alpm                            
-nss                                                                                  3.125-1                                                  alpm                            
+nss                                                                                  3.126-1                                                  alpm                            
 nth-check                                                                            2.0.1                                                    npm                             
 nth-check                                                                            2.1.1                                                    npm                             
 nu-ansi-term                                                                         0.50.3                                                   rust-crate    (+1 duplicate)    
@@ -2176,7 +2180,7 @@ one-time                                                                        
 onetbb                                                                               2023.1.0-1                                               alpm                            
 oniguruma                                                                            6.9.10-1                                                 alpm                            
 open                                                                                 10.1.2                                                   npm                             
-open                                                                                 5.3.6                                                    rust-crate    (+1 duplicate)    
+open                                                                                 5.4.0                                                    rust-crate    (+1 duplicate)    
 openai                                                                               6.45.0                                                   npm                             
 openai-harmony                                                                       0.0.3+lmstudio                                           python        (+2 duplicates)   
 openbox                                                                              3.6.1-14                                                 alpm                            
@@ -2190,12 +2194,12 @@ opencode-lmstudio                                                               
 opencore-amr                                                                         0.1.6-2                                                  alpm                            
 openh264                                                                             2.6.0-2                                                  alpm                            
 openjpeg2                                                                            2.5.4-1                                                  alpm                            
-openssh                                                                              10.4p1-2                                                 alpm                            
+openssh                                                                              10.4p1-3                                                 alpm                            
 openssl                                                                              3.6.3-1                                                  alpm                            
 openssl-probe                                                                        0.2.1                                                    rust-crate    (+1 duplicate)    
 opentofu                                                                             1.12.1-1                                                 alpm                            
 opentype.js                                                                          2.0.0                                                    npm                             
-opossum                                                                              9.0.0                                                    npm                             
+opossum                                                                              10.0.0                                                   npm                             
 option-ext                                                                           0.2.0                                                    rust-crate    (+1 duplicate)    
 opus                                                                                 1.6.1-1                                                  alpm                            
 oras.land/oras-go/v2                                                                 v2.6.0                                                   go-module                       
@@ -2291,7 +2295,7 @@ plasma-integration                                                              
 plasma-workspace                                                                     6.7.3-1                                                  alpm                            
 plasma-x11-session                                                                   6.7.3-1                                                  alpm                            
 plasma5support                                                                       6.7.3-1                                                  alpm                            
-platformdirs                                                                         4.10.1                                                   python                          
+platformdirs                                                                         4.11.0                                                   python                          
 platformdirs                                                                         4.2.2                                                    python        (+1 duplicate)    
 platformdirs                                                                         4.4.0                                                    python                          
 playwright-core                                                                      1.61.0-alpha-2026-06-04                                  npm                             
@@ -2326,7 +2330,7 @@ procfs                                                                          
 procfs-core                                                                          0.18.0                                                   rust-crate    (+1 duplicate)    
 procps-ng                                                                            4.0.6-3                                                  alpm                            
 proggy                                                                               4.0.0                                                    npm                             
-prometheus-client                                                                    0.25.0                                                   python                          
+prometheus-client                                                                    0.26.0                                                   python                          
 promise-all-reject-late                                                              1.0.1                                                    npm                             
 promise-call-limit                                                                   3.0.2                                                    npm                             
 prompt                                                                               10.0.0                                                   npm                             
@@ -2363,15 +2367,15 @@ python                                                                          
 python                                                                               3.14.6-1                                                 alpm                            
 python-cffi                                                                          2.1.0-1                                                  alpm                            
 python-cryptography                                                                  49.0.0-1                                                 alpm                            
-python-discovery                                                                     1.4.4                                                    python                          
+python-discovery                                                                     1.5.0                                                    python                          
 python-distlib                                                                       0.4.3-1                                                  alpm                            
 python-filelock                                                                      3.29.3-1                                                 alpm                            
 python-jinja                                                                         1:3.1.6-3                                                alpm                            
 python-markupsafe                                                                    3.0.3-1                                                  alpm                            
 python-packaging                                                                     26.2-1                                                   alpm                            
-python-platformdirs                                                                  4.10.1-1                                                 alpm                            
+python-platformdirs                                                                  4.11.0-1                                                 alpm                            
 python-pycparser                                                                     3.00-1                                                   alpm                            
-python-python-discovery                                                              1.4.4-1                                                  alpm                            
+python-python-discovery                                                              1.5.0-1                                                  alpm                            
 python-resolvelib                                                                    1.2.1-2                                                  alpm                            
 python-typing_extensions                                                             4.16.0-1                                                 alpm                            
 python-virtualenv                                                                    21.6.1-1                                                 alpm                            
@@ -2405,7 +2409,7 @@ qt6-webchannel                                                                  
 qt6-webengine                                                                        6.11.1-4                                                 alpm                            
 qt6-websockets                                                                       6.11.1-1                                                 alpm                            
 qt6-webview                                                                          6.11.1-1                                                 alpm                            
-quick-xml                                                                            0.39.2                                                   rust-crate    (+1 duplicate)    
+quick-xml                                                                            0.41.0                                                   rust-crate    (+1 duplicate)    
 quickjs-wasi                                                                         3.0.2                                                    npm                             
 quinn                                                                                0.11.9                                                   rust-crate    (+1 duplicate)    
 quinn-proto                                                                          0.11.15                                                  rust-crate    (+1 duplicate)    
@@ -2446,19 +2450,19 @@ readline                                                                        
 ref-cast                                                                             1.0.25                                                   rust-crate    (+1 duplicate)    
 references-view                                                                      10.0.0                                                   npm                             
 reflink-copy                                                                         0.1.30                                                   rust-crate    (+1 duplicate)    
-regex                                                                                1.12.4                                                   rust-crate    (+1 duplicate)    
+regex                                                                                1.13.0                                                   rust-crate    (+1 duplicate)    
 regex                                                                                2025.10.23                                               python        (+2 duplicates)   
-regex-automata                                                                       0.4.14                                                   rust-crate    (+1 duplicate)    
+regex-automata                                                                       0.4.15                                                   rust-crate    (+1 duplicate)    
 regex-syntax                                                                         0.8.11                                                   rust-crate    (+1 duplicate)    
 rend                                                                                 0.5.3                                                    rust-crate    (+1 duplicate)    
-reqsign                                                                              0.20.0                                                   rust-crate    (+1 duplicate)    
-reqsign-aws-v4                                                                       3.0.0                                                    rust-crate    (+1 duplicate)    
-reqsign-azure-storage                                                                3.0.0                                                    rust-crate    (+1 duplicate)    
-reqsign-command-execute-tokio                                                        3.0.0                                                    rust-crate    (+1 duplicate)    
-reqsign-core                                                                         3.0.0                                                    rust-crate    (+1 duplicate)    
-reqsign-file-read-tokio                                                              3.0.0                                                    rust-crate    (+1 duplicate)    
-reqsign-google                                                                       3.0.0                                                    rust-crate    (+1 duplicate)    
-reqsign-http-send-reqwest                                                            4.0.0                                                    rust-crate    (+1 duplicate)    
+reqsign                                                                              0.20.2                                                   rust-crate    (+1 duplicate)    
+reqsign-aws-v4                                                                       3.0.2                                                    rust-crate    (+1 duplicate)    
+reqsign-azure-storage                                                                3.1.0                                                    rust-crate    (+1 duplicate)    
+reqsign-command-execute-tokio                                                        3.0.2                                                    rust-crate    (+1 duplicate)    
+reqsign-core                                                                         3.1.0                                                    rust-crate    (+1 duplicate)    
+reqsign-file-read-tokio                                                              3.0.2                                                    rust-crate    (+1 duplicate)    
+reqsign-google                                                                       3.0.2                                                    rust-crate    (+1 duplicate)    
+reqsign-http-send-reqwest                                                            4.0.2                                                    rust-crate    (+1 duplicate)    
 require-directory                                                                    2.1.1                                                    npm           (+1 duplicate)    
 require-from-string                                                                  2.0.2                                                    npm           (+2 duplicates)   
 require-in-the-middle                                                                7.2.0                                                    npm                             
@@ -2540,14 +2544,14 @@ setimmediate                                                                    
 setprototypeof                                                                       1.2.0                                                    npm           (+2 duplicates)   
 setuptools                                                                           80.9.0                                                   python        (+1 duplicate)    
 setuptools                                                                           83.0.0                                                   python                          
-sha1                                                                                 0.10.6                                                   rust-crate    (+1 duplicate)    
+sha1                                                                                 0.11.0                                                   rust-crate    (+1 duplicate)    
 sha2                                                                                 0.10.9                                                   rust-crate    (+1 duplicate)    
 sha2                                                                                 0.11.0                                                   rust-crate    (+1 duplicate)    
 shaderc                                                                              2026.2-2                                                 alpm                            
 shaderlab                                                                            10.0.0                                                   npm                             
 shadow                                                                               4.19.4.arch1-1                                           alpm                            
 sharded-slab                                                                         0.1.7                                                    rust-crate    (+1 duplicate)    
-shared-mime-info                                                                     2.5.1-1                                                  alpm                            
+shared-mime-info                                                                     2.5.1-2                                                  alpm                            
 shebang-command                                                                      2.0.0                                                    npm           (+4 duplicates)   
 shebang-regex                                                                        3.0.0                                                    npm           (+4 duplicates)   
 shell-escape                                                                         0.1.5                                                    rust-crate    (+1 duplicate)    
@@ -2583,7 +2587,6 @@ simple-browser                                                                  
 simple-concat                                                                        1.0.1                                                    npm                             
 simple-get                                                                           4.0.1                                                    npm                             
 simple-git                                                                           3.36.0                                                   npm                             
-simple_asn1                                                                          0.6.4                                                    rust-crate    (+1 duplicate)    
 sisteransi                                                                           1.0.5                                                    npm                             
 six                                                                                  1.17.0                                                   python                          
 slab                                                                                 0.4.12                                                   rust-crate    (+1 duplicate)    
@@ -2663,9 +2666,9 @@ syn                                                                             
 sync_wrapper                                                                         1.0.2                                                    rust-crate    (+1 duplicate)    
 syndication                                                                          6.28.0-1                                                 alpm                            
 synstructure                                                                         0.13.2                                                   rust-crate    (+1 duplicate)    
-syntax-highlighting                                                                  6.28.0-1                                                 alpm                            
-systemd                                                                              261.1-1                                                  alpm                            
-systemd-libs                                                                         261.1-1                                                  alpm                            
+syntax-highlighting                                                                  6.28.1-1                                                 alpm                            
+systemd                                                                              261.2-1                                                  alpm                            
+systemd-libs                                                                         261.2-1                                                  alpm                            
 systemsettings                                                                       6.7.3-1                                                  alpm                            
 tabbable                                                                             5.3.3                                                    npm                             
 taglib                                                                               2.3.1-1                                                  alpm                            
@@ -2802,7 +2805,6 @@ unit-prefix                                                                     
 universalify                                                                         2.0.1                                                    npm                             
 unpipe                                                                               1.0.0                                                    npm           (+2 duplicates)   
 unscanny                                                                             0.1.0                                                    rust-crate    (+1 duplicate)    
-untrusted                                                                            0.7.1                                                    rust-crate    (+1 duplicate)    
 untrusted                                                                            0.9.0                                                    rust-crate    (+1 duplicate)    
 unzipper                                                                             0.11.6                                                   npm                             
 upower                                                                               1.91.3-1                                                 alpm                            
@@ -2814,77 +2816,77 @@ utf8parse                                                                       
 util-deprecate                                                                       1.0.2                                                    npm           (+3 duplicates)   
 util-linux                                                                           2.42.2-1                                                 alpm                            
 util-linux-libs                                                                      2.42.2-1                                                 alpm                            
-uuid                                                                                 1.23.4                                                   rust-crate    (+1 duplicate)    
+uuid                                                                                 1.23.5                                                   rust-crate    (+1 duplicate)    
 uuid                                                                                 14.0.0                                                   npm                             
 uuid                                                                                 14.0.1                                                   npm                             
 uuid                                                                                 3.4.0                                                    npm                             
 uuid                                                                                 9.0.1                                                    npm                             
-uv                                                                                   0.11.29                                                  python                          
-uv                                                                                   0.11.29                                                  rust-crate    (+1 duplicate)    
-uv-audit                                                                             0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-auth                                                                              0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-bin-install                                                                       0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-build-backend                                                                     0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-build-frontend                                                                    0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-cache                                                                             0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-cache-info                                                                        0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-cache-key                                                                         0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-cli                                                                               0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-client                                                                            0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-configuration                                                                     0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-console                                                                           0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-dirs                                                                              0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-dispatch                                                                          0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-distribution                                                                      0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-distribution-filename                                                             0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-distribution-types                                                                0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-errors                                                                            0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-extract                                                                           0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-fastid                                                                            0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-flags                                                                             0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-fs                                                                                0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-git                                                                               0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-git-types                                                                         0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-globfilter                                                                        0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-install-wheel                                                                     0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-installer                                                                         0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-keyring                                                                           0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-logging                                                                           0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-metadata                                                                          0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-netrc                                                                             0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-normalize                                                                         0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-once-map                                                                          0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-options-metadata                                                                  0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-pep440                                                                            0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-pep508                                                                            0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-performance-memory-allocator                                                      0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-platform                                                                          0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-platform-tags                                                                     0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-preview                                                                           0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-publish                                                                           0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-pypi-types                                                                        0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-python                                                                            0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-redacted                                                                          0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-requirements                                                                      0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-requirements-txt                                                                  0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-resolver                                                                          0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-scripts                                                                           0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-settings                                                                          0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-shell                                                                             0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-small-str                                                                         0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-state                                                                             0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-static                                                                            0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-test                                                                              0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-toml                                                                              0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-tool                                                                              0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-torch                                                                             0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-trampoline-builder                                                                0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-types                                                                             0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-unix                                                                              0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-version                                                                           0.11.29                                                  rust-crate    (+1 duplicate)    
-uv-virtualenv                                                                        0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-warnings                                                                          0.0.62                                                   rust-crate    (+1 duplicate)    
-uv-workspace                                                                         0.0.62                                                   rust-crate    (+1 duplicate)    
+uv                                                                                   0.11.32                                                  python                          
+uv                                                                                   0.11.32                                                  rust-crate    (+1 duplicate)    
+uv-audit                                                                             0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-auth                                                                              0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-bin-install                                                                       0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-build-backend                                                                     0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-build-frontend                                                                    0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-cache                                                                             0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-cache-info                                                                        0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-cache-key                                                                         0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-cli                                                                               0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-client                                                                            0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-configuration                                                                     0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-console                                                                           0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-dirs                                                                              0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-dispatch                                                                          0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-distribution                                                                      0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-distribution-filename                                                             0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-distribution-types                                                                0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-errors                                                                            0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-extract                                                                           0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-fastid                                                                            0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-flags                                                                             0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-fs                                                                                0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-git                                                                               0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-git-types                                                                         0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-globfilter                                                                        0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-install-wheel                                                                     0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-installer                                                                         0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-keyring                                                                           0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-logging                                                                           0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-metadata                                                                          0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-netrc                                                                             0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-normalize                                                                         0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-once-map                                                                          0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-options-metadata                                                                  0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-pep440                                                                            0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-pep508                                                                            0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-performance-memory-allocator                                                      0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-platform                                                                          0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-platform-tags                                                                     0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-preview                                                                           0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-publish                                                                           0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-pypi-types                                                                        0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-python                                                                            0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-redacted                                                                          0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-requirements                                                                      0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-requirements-txt                                                                  0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-resolver                                                                          0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-scripts                                                                           0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-settings                                                                          0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-shell                                                                             0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-small-str                                                                         0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-state                                                                             0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-static                                                                            0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-test                                                                              0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-toml                                                                              0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-tool                                                                              0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-torch                                                                             0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-trampoline-builder                                                                0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-types                                                                             0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-unix                                                                              0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-version                                                                           0.11.32                                                  rust-crate    (+1 duplicate)    
+uv-virtualenv                                                                        0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-warnings                                                                          0.0.65                                                   rust-crate    (+1 duplicate)    
+uv-workspace                                                                         0.0.65                                                   rust-crate    (+1 duplicate)    
 v4l-utils                                                                            1.32.0-2                                                 alpm                            
 validate-npm-package-name                                                            8.0.0                                                    npm                             
 vapoursynth                                                                          77                                                       python                          
@@ -2893,8 +2895,8 @@ vary                                                                            
 vb                                                                                   10.0.0                                                   npm                             
 verror                                                                               1.10.1                                                   npm                             
 vid.stab                                                                             1.1.1-3                                                  alpm                            
-vim                                                                                  9.2.0804-1                                               alpm                            
-vim-runtime                                                                          9.2.0804-1                                               alpm                            
+vim                                                                                  9.2.0849-1                                               alpm                            
+vim-runtime                                                                          9.2.0849-1                                               alpm                            
 virtualenv                                                                           21.6.1                                                   python                          
 vmaf                                                                                 3.2.0-1                                                  alpm                            
 voca                                                                                 1.4.1                                                    npm                             
@@ -2939,7 +2941,7 @@ webpki-root-certs                                                               
 webrtc-audio-processing-1                                                            1.3-5                                                    alpm                            
 websocket                                                                            1.0.35                                                   npm                             
 websockets                                                                           15.0.1                                                   python        (+2 duplicates)   
-websockets                                                                           16.1                                                     python                          
+websockets                                                                           16.1.1                                                   python                          
 whatwg-encoding                                                                      3.1.1                                                    npm                             
 whatwg-fetch                                                                         3.6.20                                                   npm                             
 whatwg-mimetype                                                                      4.0.0                                                    npm                             
@@ -3043,7 +3045,7 @@ yargs                                                                           
 yargs                                                                                17.7.3                                                   npm                             
 yargs-parser                                                                         18.1.3                                                   npm                             
 yargs-parser                                                                         21.1.1                                                   npm           (+1 duplicate)    
-yarl                                                                                 1.24.2                                                   python                          
+yarl                                                                                 1.24.5                                                   python                          
 yauzl                                                                                3.3.1                                                    npm                             
 yazl                                                                                 2.4.3                                                    npm                             
 yoke                                                                                 0.8.1                                                    rust-crate    (+1 duplicate)    
