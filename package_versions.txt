@@ -296,14 +296,14 @@ NAME                                                                            
 @simple-git/args-pathspec                                                            1.0.3                                                    npm                             
 @simple-git/argv-parser                                                              1.1.1                                                    npm                             
 @sinclair/typebox                                                                    0.34.41                                                  npm                             
-@smithy/core                                                                         3.29.8                                                   npm                             
-@smithy/credential-provider-imds                                                     4.4.13                                                   npm                             
-@smithy/eventstream-codec                                                            4.4.13                                                   npm                             
-@smithy/fetch-http-handler                                                           5.6.10                                                   npm                             
-@smithy/node-http-handler                                                            4.9.10                                                   npm                             
-@smithy/signature-v4                                                                 5.6.9                                                    npm                             
+@smithy/core                                                                         3.30.0                                                   npm                             
+@smithy/credential-provider-imds                                                     4.4.14                                                   npm                             
+@smithy/eventstream-codec                                                            4.4.14                                                   npm                             
+@smithy/fetch-http-handler                                                           5.6.11                                                   npm                             
+@smithy/node-http-handler                                                            4.9.11                                                   npm                             
+@smithy/signature-v4                                                                 5.6.10                                                   npm                             
 @smithy/types                                                                        4.16.1                                                   npm                             
-@smithy/util-utf8                                                                    4.4.13                                                   npm                             
+@smithy/util-utf8                                                                    4.4.14                                                   npm                             
 @so-ric/colorspace                                                                   1.1.6                                                    npm                             
 @stablelib/base64                                                                    1.0.1                                                    npm                             
 @standard-schema/spec                                                                1.1.0                                                    npm           (+1 duplicate)    
