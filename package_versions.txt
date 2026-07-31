@@ -539,7 +539,7 @@ cloud.google.com/go/longrunning                                                 
 cloud.google.com/go/monitoring                                                       v1.24.3                                                  go-module                       
 cloud.google.com/go/storage                                                          v1.61.3                                                  go-module                       
 cls-hooked                                                                           4.2.2                                                    npm                             
-cmake                                                                                4.4.1-1                                                  alpm                            
+cmake                                                                                4.4.2-1                                                  alpm                            
 cmd-shim                                                                             9.0.2                                                    npm                             
 cmov                                                                                 0.5.4                                                    rust-crate    (+1 duplicate)    
 code                                                                                 1.130.0-2                                                alpm                            
