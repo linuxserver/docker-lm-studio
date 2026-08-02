@@ -114,8 +114,8 @@ NAME                                                                            
 @nevware21/ts-async                                                                  0.5.4                                                    npm                             
 @nevware21/ts-utils                                                                  0.14.0                                                   npm                             
 @npmcli/agent                                                                        5.0.2                                                    npm                             
-@npmcli/arborist                                                                     10.0.1                                                   npm                             
-@npmcli/config                                                                       11.0.0                                                   npm                             
+@npmcli/arborist                                                                     10.0.2                                                   npm                             
+@npmcli/config                                                                       11.0.1                                                   npm                             
 @npmcli/fs                                                                           6.0.0                                                    npm                             
 @npmcli/git                                                                          8.0.0                                                    npm                             
 @npmcli/installed-package-contents                                                   5.0.0                                                    npm                             
@@ -1706,11 +1706,11 @@ libngtcp2                                                                       
 libnl                                                                                3.12.0-1                                                 alpm                            
 libnotify                                                                            0.8.8-1                                                  alpm                            
 libnpmaccess                                                                         11.0.0                                                   npm                             
-libnpmdiff                                                                           9.0.1                                                    npm                             
-libnpmexec                                                                           11.0.1                                                   npm                             
-libnpmfund                                                                           8.0.1                                                    npm                             
+libnpmdiff                                                                           9.0.2                                                    npm                             
+libnpmexec                                                                           11.0.2                                                   npm                             
+libnpmfund                                                                           8.0.2                                                    npm                             
 libnpmorg                                                                            9.0.0                                                    npm                             
-libnpmpack                                                                           10.0.1                                                   npm                             
+libnpmpack                                                                           10.0.2                                                   npm                             
 libnpmpublish                                                                        12.0.0                                                   npm                             
 libnpmsearch                                                                         10.0.0                                                   npm                             
 libnpmteam                                                                           9.0.0                                                    npm                             
@@ -1976,8 +1976,8 @@ noto-fonts                                                                      
 noto-fonts-cjk                                                                       20240730-1                                               alpm                            
 noto-fonts-emoji                                                                     1:2.051-1                                                alpm                            
 npm                                                                                  10.0.0                                                   npm                             
-npm                                                                                  12.0.1                                                   npm                             
-npm                                                                                  12.0.1-1                                                 alpm                            
+npm                                                                                  12.0.2                                                   npm                             
+npm                                                                                  12.0.2-1                                                 alpm                            
 npm-audit-report                                                                     8.0.0                                                    npm                             
 npm-bundled                                                                          6.0.0                                                    npm                             
 npm-install-checks                                                                   9.0.0                                                    npm                             
