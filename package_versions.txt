@@ -1,22 +1,22 @@
 NAME                                                                                 VERSION                                                  TYPE                           
 @agentclientprotocol/sdk                                                             1.1.0                                                    npm                             
-@ai-sdk/amazon-bedrock                                                               5.0.49                                                   npm                             
-@ai-sdk/anthropic                                                                    4.0.35                                                   npm                             
+@ai-sdk/amazon-bedrock                                                               5.0.50                                                   npm                             
+@ai-sdk/anthropic                                                                    4.0.36                                                   npm                             
 @ai-sdk/gateway                                                                      3.0.166                                                  npm                             
-@ai-sdk/gateway                                                                      4.0.45                                                   npm           (+1 duplicate)    
-@ai-sdk/google                                                                       4.0.38                                                   npm                             
-@ai-sdk/google-vertex                                                                5.0.46                                                   npm                             
-@ai-sdk/mistral                                                                      4.0.26                                                   npm                             
-@ai-sdk/openai                                                                       4.0.35                                                   npm                             
-@ai-sdk/openai-compatible                                                            3.0.26                                                   npm                             
-@ai-sdk/otel                                                                         1.0.57                                                   npm                             
+@ai-sdk/gateway                                                                      4.0.46                                                   npm           (+1 duplicate)    
+@ai-sdk/google                                                                       4.0.39                                                   npm                             
+@ai-sdk/google-vertex                                                                5.0.47                                                   npm                             
+@ai-sdk/mistral                                                                      4.0.27                                                   npm                             
+@ai-sdk/openai                                                                       4.0.36                                                   npm                             
+@ai-sdk/openai-compatible                                                            3.0.27                                                   npm                             
+@ai-sdk/otel                                                                         1.0.58                                                   npm                             
 @ai-sdk/provider                                                                     2.0.3                                                    npm                             
 @ai-sdk/provider                                                                     3.0.14                                                   npm           (+3 duplicates)   
 @ai-sdk/provider                                                                     3.0.8                                                    npm                             
-@ai-sdk/provider                                                                     4.0.6                                                    npm                             
+@ai-sdk/provider                                                                     4.0.7                                                    npm                             
 @ai-sdk/provider-utils                                                               3.0.31                                                   npm                             
 @ai-sdk/provider-utils                                                               4.0.42                                                   npm           (+3 duplicates)   
-@ai-sdk/provider-utils                                                               5.0.24                                                   npm                             
+@ai-sdk/provider-utils                                                               5.0.25                                                   npm                             
 @anthropic-ai/claude-agent-sdk                                                       0.2.112                                                  npm                             
 @anthropic-ai/sdk                                                                    0.109.1                                                  npm                             
 @anthropic-ai/sdk                                                                    0.81.0                                                   npm                             
@@ -51,12 +51,12 @@ NAME                                                                            
 @borewit/text-codec                                                                  0.2.2                                                    npm                             
 @clack/core                                                                          1.4.2                                                    npm                             
 @clack/prompts                                                                       1.6.0                                                    npm                             
-@cline/agents                                                                        0.0.71                                                   npm                             
-@cline/cli-linux-x64                                                                 3.0.51                                                   npm                             
-@cline/core                                                                          0.0.71                                                   npm                             
-@cline/llms                                                                          0.0.71                                                   npm                             
-@cline/sdk                                                                           0.0.71                                                   npm                             
-@cline/shared                                                                        0.0.71                                                   npm                             
+@cline/agents                                                                        0.0.72                                                   npm                             
+@cline/cli-linux-x64                                                                 3.0.52                                                   npm                             
+@cline/core                                                                          0.0.72                                                   npm                             
+@cline/llms                                                                          0.0.72                                                   npm                             
+@cline/sdk                                                                           0.0.72                                                   npm                             
+@cline/shared                                                                        0.0.72                                                   npm                             
 @colors/colors                                                                       1.6.0                                                    npm                             
 @dabh/diagnostics                                                                    2.0.8                                                    npm                             
 @earendil-works/pi-tui                                                               0.80.3                                                   npm                             
@@ -347,7 +347,7 @@ agent-base                                                                      
 agent-base                                                                           9.0.0                                                    npm           (+1 duplicate)    
 aho-corasick                                                                         1.1.4                                                    rust-crate    (+1 duplicate)    
 ai                                                                                   6.0.246                                                  npm                             
-ai                                                                                   7.0.57                                                   npm           (+1 duplicate)    
+ai                                                                                   7.0.58                                                   npm           (+1 duplicate)    
 ai-prediction-api                                                                    1.0.0                                                    npm                             
 ai-sdk-provider-opencode-sdk                                                         3.0.6                                                    npm                             
 aider-install                                                                        0.2.0                                                    python                          
@@ -528,7 +528,7 @@ cli-32                                                                          
 cli-64                                                                               UNKNOWN                                                  binary        (+1 duplicate)    
 cli-arm64                                                                            UNKNOWN                                                  binary        (+1 duplicate)    
 click                                                                                8.4.2                                                    python                          
-cline                                                                                3.0.51                                                   npm                             
+cline                                                                                3.0.52                                                   npm                             
 cliui                                                                                6.0.0                                                    npm                             
 cliui                                                                                8.0.1                                                    npm           (+1 duplicate)    
 clojure                                                                              10.0.0                                                   npm                             
@@ -2283,7 +2283,7 @@ python-python-discovery                                                         
 python-resolvelib                                                                    1.2.1-2                                                  alpm                            
 python-setuptools                                                                    1:84.0.0-1                                               alpm                            
 python-typing_extensions                                                             4.16.0-1                                                 alpm                            
-python-virtualenv                                                                    21.7.1-1                                                 alpm                            
+python-virtualenv                                                                    21.7.2-1                                                 alpm                            
 python-wheel                                                                         0.47.0-1                                                 alpm                            
 python-xlib                                                                          0.33                                                     python                          
 python-yaml                                                                          6.0.3-2                                                  alpm                            
@@ -2376,7 +2376,7 @@ retry-policies                                                                  
 rhash                                                                                1.4.6-1                                                  alpm                            
 ring                                                                                 0.17.14                                                  rust-crate    (+1 duplicate)    
 ripgrep                                                                              15.2.0-1                                                 alpm                            
-ripgrep-all                                                                          0.10.10-1                                                alpm                            
+ripgrep-all                                                                          0.10.10-2                                                alpm                            
 rkyv                                                                                 0.8.17                                                   rust-crate    (+1 duplicate)    
 rmp                                                                                  0.8.15                                                   rust-crate    (+1 duplicate)    
 rmp-serde                                                                            1.3.1                                                    rust-crate    (+1 duplicate)    
@@ -2762,7 +2762,7 @@ verror                                                                          
 vid.stab                                                                             1.1.1-3                                                  alpm                            
 vim                                                                                  9.2.0849-1                                               alpm                            
 vim-runtime                                                                          9.2.0849-1                                               alpm                            
-virtualenv                                                                           21.7.1                                                   python                          
+virtualenv                                                                           21.7.2                                                   python                          
 vmaf                                                                                 3.2.0-1                                                  alpm                            
 voca                                                                                 1.4.1                                                    npm                             
 volume_key                                                                           0.3.12-12                                                alpm                            
