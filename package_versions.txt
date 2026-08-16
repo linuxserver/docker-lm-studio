@@ -288,14 +288,14 @@ NAME                                                                            
 @simple-git/args-pathspec                                                            1.0.3                                                    npm                             
 @simple-git/argv-parser                                                              1.1.1                                                    npm                             
 @sinclair/typebox                                                                    0.34.41                                                  npm                             
-@smithy/core                                                                         3.33.0                                                   npm                             
-@smithy/credential-provider-imds                                                     4.5.0                                                    npm                             
-@smithy/eventstream-codec                                                            4.5.0                                                    npm                             
-@smithy/fetch-http-handler                                                           5.7.0                                                    npm                             
-@smithy/node-http-handler                                                            4.11.0                                                   npm                             
-@smithy/signature-v4                                                                 5.7.0                                                    npm                             
-@smithy/types                                                                        4.17.0                                                   npm                             
-@smithy/util-utf8                                                                    4.5.0                                                    npm                             
+@smithy/core                                                                         3.33.2                                                   npm                             
+@smithy/credential-provider-imds                                                     4.5.2                                                    npm                             
+@smithy/eventstream-codec                                                            4.5.2                                                    npm                             
+@smithy/fetch-http-handler                                                           5.7.2                                                    npm                             
+@smithy/node-http-handler                                                            4.11.2                                                   npm                             
+@smithy/signature-v4                                                                 5.7.2                                                    npm                             
+@smithy/types                                                                        4.17.2                                                   npm                             
+@smithy/util-utf8                                                                    4.5.2                                                    npm                             
 @so-ric/colorspace                                                                   1.1.6                                                    npm                             
 @stablelib/base64                                                                    1.0.1                                                    npm                             
 @standard-schema/spec                                                                1.1.0                                                    npm           (+1 duplicate)    
@@ -370,10 +370,10 @@ annotated-types                                                                 
 annotated-types                                                                      0.8.0                                                    python                          
 ansi-regex                                                                           5.0.1                                                    npm           (+1 duplicate)    
 ansi-styles                                                                          4.3.0                                                    npm           (+2 duplicates)   
-ansible                                                                              14.2.0                                                   python                          
-ansible                                                                              14.2.0-1                                                 alpm                            
-ansible-core                                                                         2.21.2                                                   python                          
-ansible-core                                                                         2.21.2-1                                                 alpm                            
+ansible                                                                              14.3.1                                                   python                          
+ansible                                                                              14.3.1-1                                                 alpm                            
+ansible-core                                                                         2.21.3                                                   python                          
+ansible-core                                                                         2.21.3-1                                                 alpm                            
 anstream                                                                             1.0.0                                                    rust-crate    (+1 duplicate)    
 anstyle                                                                              1.0.14                                                   rust-crate    (+1 duplicate)    
 anstyle-parse                                                                        1.0.0                                                    rust-crate    (+1 duplicate)    
@@ -605,8 +605,7 @@ crossbeam-epoch                                                                 
 crossbeam-utils                                                                      0.8.21                                                   rust-crate    (+1 duplicate)    
 crypto-common                                                                        0.1.7                                                    rust-crate    (+1 duplicate)    
 crypto-common                                                                        0.2.2                                                    rust-crate    (+1 duplicate)    
-cryptography                                                                         49.0.0                                                   python                          
-cryptography                                                                         50.0.0                                                   python                          
+cryptography                                                                         50.0.0                                                   python        (+1 duplicate)    
 cryptsetup                                                                           2.8.7-1                                                  alpm                            
 csharp                                                                               10.0.0                                                   npm                             
 css                                                                                  10.0.0                                                   npm                             
@@ -1554,7 +1553,7 @@ jiti                                                                            
 jks-js                                                                               1.1.7                                                    npm                             
 jobserver                                                                            0.1.35                                                   rust-crate    (+1 duplicate)    
 jose                                                                                 6.1.3                                                    npm                             
-jose                                                                                 6.2.8                                                    npm           (+1 duplicate)    
+jose                                                                                 6.2.9                                                    npm           (+1 duplicate)    
 jpegxl                                                                               UNKNOWN                                                  java-archive                    
 jq                                                                                   1.8.1                                                    binary                          
 jq                                                                                   1.8.2-1                                                  alpm                            
@@ -1686,7 +1685,7 @@ latex                                                                           
 layer-shell-qt                                                                       6.7.4-1                                                  alpm                            
 lazy_static                                                                          1.5.0                                                    rust-crate    (+1 duplicate)    
 lcms2                                                                                2.19.1-1                                                 alpm                            
-ldb                                                                                  2:4.24.5-1                                               alpm                            
+ldb                                                                                  2:4.24.6-1                                               alpm                            
 leancrypto                                                                           1.8.0-1                                                  alpm                            
 less                                                                                 10.0.0                                                   npm                             
 less                                                                                 1:704-1                                                  alpm                            
@@ -1866,7 +1865,7 @@ libvorbis                                                                       
 libvpl                                                                               2.17.0-1                                                 alpm                            
 libvpx                                                                               1.16.0-3                                                 alpm                            
 libwacom                                                                             2.19.1-1                                                 alpm                            
-libwbclient                                                                          2:4.24.5-1                                               alpm                            
+libwbclient                                                                          2:4.24.6-1                                               alpm                            
 libwebp                                                                              1.6.0-2                                                  alpm                            
 libwireplumber                                                                       0.5.15-1                                                 alpm                            
 libx11                                                                               1.8.13-1                                                 alpm                            
@@ -2021,7 +2020,7 @@ multipasta                                                                      
 munge                                                                                0.4.7                                                    rust-crate    (+1 duplicate)    
 mute-stream                                                                          4.0.0                                                    npm                             
 my-test-package                                                                      1.0                                                      python        (+1 duplicate)    
-nano                                                                                 9.1-1                                                    alpm                            
+nano                                                                                 9.2-1                                                    alpm                            
 nanoid                                                                               5.1.16                                                   npm                             
 napi-oop-runtime                                                                     1.0.9                                                    npm                             
 ncurses                                                                              6.6-2                                                    alpm                            
@@ -2273,7 +2272,7 @@ python                                                                          
 python                                                                               3.14.7-1                                                 alpm                            
 python-autocommand                                                                   2.2.2-9                                                  alpm                            
 python-cffi                                                                          2.1.1-1                                                  alpm                            
-python-cryptography                                                                  49.0.0-1                                                 alpm                            
+python-cryptography                                                                  50.0.0-1                                                 alpm                            
 python-discovery                                                                     1.5.1                                                    python                          
 python-distlib                                                                       0.4.3-1                                                  alpm                            
 python-dotenv                                                                        1.2.2                                                    python                          
@@ -2499,7 +2498,7 @@ slab                                                                            
 smallvec                                                                             1.15.2                                                   rust-crate    (+1 duplicate)    
 smart-buffer                                                                         4.2.0                                                    npm                             
 smawk                                                                                0.3.2                                                    rust-crate    (+1 duplicate)    
-smbclient                                                                            2:4.24.5-1                                               alpm                            
+smbclient                                                                            2:4.24.6-1                                               alpm                            
 smbus                                                                                1.1                                                      python                          
 snappy                                                                               1.2.2-3                                                  alpm                            
 sndio                                                                                1.10.0-1                                                 alpm                            
