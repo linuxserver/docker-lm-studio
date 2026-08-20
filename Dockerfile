@@ -70,6 +70,7 @@ RUN \
     /usr/share/applications/ && \
   echo "**** install npm AI tools ****" && \
   npm install -g \
+    --allow-scripts=opencode-ai \
     @lmstudio/sdk \
     cline \
     openclaw@latest \
