@@ -60,14 +60,14 @@ RUN \
   curl -fsSL https://lmstudio.ai/install.sh | HOME=/opt/lm-studio bash && \
   chmod -R o+rX /opt/lm-studio && \
   cp \
-    /opt/lm-studio/usr/share/icons/hicolor/0x0/apps/lm-studio.png \
+    /opt/lm-studio/usr/share/icons/hicolor/512x512/apps/lm-studio.png \
     /usr/share/icons/hicolor/512x512/apps/lm-studio.png && \
   sed -i \
     's#^Exec=.*#Exec=/usr/bin/lm-studio#g' \
-    /opt/lm-studio/lm-studio.desktop && \
+    /opt/lm-studio/ai.elementlabs.lmstudio.desktop && \
   cp \
-    /opt/lm-studio/lm-studio.desktop \
-    /usr/share/applications/ && \
+    /opt/lm-studio/ai.elementlabs.lmstudio.desktop \
+    /usr/share/applications/lm-studio.desktop && \
   echo "**** install npm AI tools ****" && \
   npm install -g \
     --allow-scripts=opencode-ai \
