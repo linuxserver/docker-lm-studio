@@ -1,17 +1,17 @@
 NAME                                                                                 VERSION                                                  TYPE                           
 @agentclientprotocol/sdk                                                             1.4.0                                                    npm                             
-@ai-sdk/amazon-bedrock                                                               5.0.74                                                   npm                             
+@ai-sdk/amazon-bedrock                                                               5.0.75                                                   npm                             
 @ai-sdk/anthropic                                                                    4.0.49                                                   npm                             
 @ai-sdk/gateway                                                                      3.0.189                                                  npm                             
 @ai-sdk/gateway                                                                      4.0.2                                                    npm                             
-@ai-sdk/gateway                                                                      4.0.74                                                   npm                             
-@ai-sdk/google                                                                       4.0.63                                                   npm                             
-@ai-sdk/google-vertex                                                                5.0.75                                                   npm                             
+@ai-sdk/gateway                                                                      4.0.75                                                   npm                             
+@ai-sdk/google                                                                       4.0.64                                                   npm                             
+@ai-sdk/google-vertex                                                                5.0.76                                                   npm                             
 @ai-sdk/mistral                                                                      4.0.39                                                   npm                             
-@ai-sdk/openai                                                                       4.0.58                                                   npm                             
-@ai-sdk/openai-compatible                                                            3.0.43                                                   npm                             
+@ai-sdk/openai                                                                       4.0.59                                                   npm                             
+@ai-sdk/openai-compatible                                                            3.0.44                                                   npm                             
 @ai-sdk/otel                                                                         1.0.2                                                    npm                             
-@ai-sdk/otel                                                                         1.0.92                                                   npm                             
+@ai-sdk/otel                                                                         1.0.93                                                   npm                             
 @ai-sdk/provider                                                                     2.0.3                                                    npm                             
 @ai-sdk/provider                                                                     3.0.15                                                   npm           (+2 duplicates)   
 @ai-sdk/provider                                                                     3.0.8                                                    npm                             
@@ -352,7 +352,7 @@ agent-base                                                                      
 aho-corasick                                                                         1.1.4                                                    rust-crate    (+1 duplicate)    
 ai                                                                                   6.0.277                                                  npm                             
 ai                                                                                   7.0.2                                                    npm                             
-ai                                                                                   7.0.92                                                   npm           (+1 duplicate)    
+ai                                                                                   7.0.93                                                   npm           (+1 duplicate)    
 ai-prediction-api                                                                    1.0.0                                                    npm                             
 ai-sdk-provider-opencode-sdk                                                         3.0.6                                                    npm                             
 aider-install                                                                        0.2.0                                                    python                          
