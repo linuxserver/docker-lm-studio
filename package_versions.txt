@@ -67,7 +67,7 @@ NAME                                                                            
 @gar/promise-retry                                                                   1.0.3                                                    npm                             
 @github/blackbird-external-ingest-utils                                              0.3.0                                                    npm                             
 @github/copilot                                                                      1.0.73                                                   npm                             
-@github/copilot-linux-x64                                                            1.0.81-0                                                 npm                             
+@github/copilot-linux-x64                                                            1.0.83-2                                                 npm                             
 @google/genai                                                                        1.30.0                                                   npm                             
 @google/genai                                                                        2.19.0                                                   npm                             
 @google/genai/node                                                                   UNKNOWN                                                  npm           (+1 duplicate)    
@@ -304,7 +304,7 @@ NAME                                                                            
 @tufjs/canonical-json                                                                2.0.0                                                    npm                             
 @tufjs/models                                                                        5.0.0                                                    npm                             
 @types/node                                                                          22.16.3                                                  npm                             
-@types/node                                                                          22.20.2                                                  npm           (+1 duplicate)    
+@types/node                                                                          26.5.1                                                   npm           (+1 duplicate)    
 @types/retry                                                                         0.12.0                                                   npm                             
 @types/triple-beam                                                                   1.3.5                                                    npm                             
 @typespec/ts-http-runtime                                                            0.3.2                                                    npm           (+1 duplicate)    
@@ -323,7 +323,7 @@ NAME                                                                            
 @vscode/webview-ui-toolkit                                                           1.4.0                                                    npm                             
 @workflow/serde                                                                      4.1.0                                                    npm                             
 @xterm/headless                                                                      5.5.0                                                    npm                             
-Code - OSS                                                                           1.136.2                                                  npm                             
+Code - OSS                                                                           1.137.0                                                  npm                             
 Microsoft.PowerShell.PSReadLine                                                      2.4.3                                                    dotnet                          
 Microsoft.PowerShell.PSReadLine.Polyfiller                                           1.0.0.0                                                  dotnet        (+1 duplicate)    
 Microsoft.PowerShell.Pager                                                           1.0.0.0                                                  dotnet                          
@@ -559,7 +559,7 @@ cls-hooked                                                                      
 cmake                                                                                4.4.3-2                                                  alpm                            
 cmd-shim                                                                             9.0.2                                                    npm                             
 cmov                                                                                 0.5.4                                                    rust-crate    (+1 duplicate)    
-code                                                                                 1.136.2-1                                                alpm                            
+code                                                                                 1.137.0-1                                                alpm                            
 coffeescript                                                                         10.0.0                                                   npm                             
 color                                                                                5.0.3                                                    npm                             
 color-convert                                                                        2.0.1                                                    npm           (+2 duplicates)   
@@ -592,7 +592,7 @@ continuation-local-storage                                                      
 convertlit                                                                           1.8-13                                                   alpm                            
 cookie                                                                               0.7.2                                                    npm           (+2 duplicates)   
 cookie-signature                                                                     1.2.2                                                    npm           (+2 duplicates)   
-copilot-chat                                                                         0.64.1                                                   npm                             
+copilot-chat                                                                         0.65.0                                                   npm                             
 core-util-is                                                                         1.0.2                                                    npm                             
 core-util-is                                                                         1.0.3                                                    npm                             
 coreutils                                                                            9.11-2                                                   alpm                            
@@ -640,7 +640,7 @@ dbus-broker                                                                     
 dbus-broker-units                                                                    37-3                                                     alpm                            
 dbus-units                                                                           37-3                                                     alpm                            
 dconf                                                                                0.49.0-1                                                 alpm                            
-ddcutil                                                                              3.0.0-1                                                  alpm                            
+ddcutil                                                                              3.0.1-1                                                  alpm                            
 deadpool                                                                             0.12.3                                                   rust-crate    (+1 duplicate)    
 deadpool-runtime                                                                     0.1.4                                                    rust-crate    (+1 duplicate)    
 debug                                                                                4.4.3                                                    npm           (+3 duplicates)   
@@ -1982,7 +1982,6 @@ mute-stream                                                                     
 my-test-package                                                                      1.0                                                      python        (+1 duplicate)    
 nano                                                                                 9.2-1                                                    alpm                            
 nanoid                                                                               5.1.16                                                   npm                             
-napi-oop-runtime                                                                     1.0.9                                                    npm                             
 ncurses                                                                              6.6-2                                                    alpm                            
 negotiator                                                                           1.0.0                                                    npm           (+1 duplicate)    
 negotiator                                                                           1.1.0                                                    npm           (+1 duplicate)    
@@ -2454,7 +2453,7 @@ sigs.k8s.io/structured-merge-diff/v6                                            
 sigs.k8s.io/yaml                                                                     v1.6.0                                                   go-module     (+2 duplicates)   
 sigstore                                                                             5.0.0                                                    npm                             
 simd-adler32                                                                         0.3.8                                                    rust-crate    (+1 duplicate)    
-simdjson                                                                             1:4.6.9-1                                                alpm                            
+simdjson                                                                             1:4.6.11-1                                               alpm                            
 simdutf8                                                                             0.1.5                                                    rust-crate    (+1 duplicate)    
 similar                                                                              2.7.0                                                    rust-crate    (+1 duplicate)    
 similar                                                                              3.1.2                                                    rust-crate    (+1 duplicate)    
@@ -2654,7 +2653,8 @@ undici                                                                          
 undici                                                                               7.29.1                                                   npm                             
 undici                                                                               8.10.0                                                   npm                             
 undici                                                                               8.10.2                                                   npm                             
-undici-types                                                                         6.21.0                                                   npm           (+2 duplicates)   
+undici-types                                                                         6.21.0                                                   npm                             
+undici-types                                                                         8.9.0                                                    npm           (+1 duplicate)    
 unicase                                                                              2.9.0                                                    rust-crate    (+1 duplicate)    
 unicode-ident                                                                        1.0.24                                                   rust-crate    (+1 duplicate)    
 unicode-linebreak                                                                    0.1.5                                                    rust-crate    (+1 duplicate)    
@@ -2914,7 +2914,7 @@ zmij                                                                            
 zod                                                                                  3.25.76                                                  npm           (+3 duplicates)   
 zod                                                                                  4.1.8                                                    npm                             
 zod                                                                                  4.4.3                                                    npm           (+1 duplicate)    
-zod                                                                                  4.6.3                                                    npm                             
+zod                                                                                  4.6.4                                                    npm                             
 zod-to-json-schema                                                                   3.25.1                                                   npm                             
 zod-to-json-schema                                                                   3.25.2                                                   npm           (+2 duplicates)   
 zstd                                                                                 0.13.3                                                   rust-crate    (+1 duplicate)    
