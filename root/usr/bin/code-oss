@@ -2,4 +2,9 @@
 
 BIN=/usr/bin/code-oss-real
 
-${BIN} --no-sandbox "$@"
+# Wayland check
+if [ "${PIXELFLUX_WAYLAND,,}" == "true" ]; then
+  WAYLAND="--ozone-platform=wayland"
+fi
+
+${BIN} --no-sandbox ${WAYLAND} "$@"

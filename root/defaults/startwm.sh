@@ -7,6 +7,14 @@ if [ ! -f $HOME/Desktop/lm-studio.desktop ]; then
   chmod +x $HOME/Desktop/lm-studio.desktop
   cp /defaults/lms.desktop $HOME/Desktop/
   chmod +x $HOME/Desktop/lms.desktop
+  cp /usr/share/applications/org.kde.konsole.desktop $HOME/Desktop/
+  chmod +x $HOME/Desktop/org.kde.konsole.desktop
+fi
+
+# Default configs
+if [ ! -f $HOME/.config/opencode/opencode.json ]; then
+  mkdir -p "$HOME/.config/opencode"
+  cp /defaults/opencode.json "$HOME/.config/opencode/"
 fi
 
 # Disable compositing and screen locking
@@ -51,11 +59,15 @@ if [ ! -f "${STARTUP_FILE}" ]; then
   chmod +x $STARTUP_FILE
 fi
 
-# Enable Nvidia GPU support if detected
-if which nvidia-smi > /dev/null 2>&1 && ls -A /dev/dri 2>/dev/null && [ "${DISABLE_ZINK}" == "false" ]; then
-  export LIBGL_KOPPER_DRI2=1
-  export MESA_LOADER_DRIVER_OVERRIDE=zink
-  export GALLIUM_DRIVER=zink
+# Start user systemd services
+if [ -d "$HOME/.config/systemd/user" ]; then
+  for service_file in "$HOME/.config/systemd/user/"*.service; do
+    if [ -f "$service_file" ]; then
+      service_name=$(basename "$service_file")
+      echo "Initializing $service_name..."
+      /usr/bin/systemctl start "$service_name"
+    fi
+  done
 fi
 
 # Dbus defaults

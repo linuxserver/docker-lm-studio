@@ -8,8 +8,7 @@ LABEL maintainer="thelamer"
 
 # title
 ENV TITLE="LM Studio" \
-    PIXELFLUX_WAYLAND=true \
-    NO_GAMEPAD=true
+    PIXELFLUX_WAYLAND=true
 
 RUN \
   echo "**** add icon ****" && \
@@ -106,8 +105,9 @@ RUN \
 
 # add local files
 COPY /root /
+COPY --from=ghcr.io/linuxserver/selkies-layers:amd64-arch-kwin / /
 
 # ports and volumes
-EXPOSE 3000
+EXPOSE 3001
 
 VOLUME /config
