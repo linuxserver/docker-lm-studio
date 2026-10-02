@@ -19,6 +19,7 @@ RUN \
   pacman -Sy --noconfirm --needed \
     ansible \
     argon2 \
+    aurorae \
     cargo \
     chromium \
     cmake \
@@ -31,12 +32,16 @@ RUN \
     kde-cli-tools \
     kdialog \
     konsole \
+    kvantum \
     kwin-x11 \
     mariadb \
     nano \
     nodejs \
     npm \
     opentofu \
+    packagekit \
+    papirus-icon-theme \
+    pipewire \
     plasma-desktop \
     plasma-x11-session \
     python-virtualenv \
@@ -44,7 +49,12 @@ RUN \
     tmux \
     typescript \
     vim \
-    vulkan-headers && \
+    vulkan-headers \
+    wireplumber \
+    xdg-desktop-portal \
+    xdg-desktop-portal-kde \
+    xdg-user-dirs \
+    xorg-xhost && \
   cargo install \
     wl-clipboard-rs-tools && \
   echo "**** install lm studio ****" && \
