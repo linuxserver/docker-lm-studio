@@ -820,12 +820,12 @@ fcft                                                                            
 fdir                                                                                 6.5.0                                                    npm           (+2 duplicates)   
 fecha                                                                                4.2.3                                                    npm                             
 fetch-blob                                                                           3.2.0                                                    npm           (+2 duplicates)   
-ffmpeg                                                                               2:9.0.2-1                                                alpm                            
+ffmpeg                                                                               2:9.0.2-2                                                alpm                            
 fftw                                                                                 3.3.11-1                                                 alpm                            
 figures                                                                              6.1.0                                                    npm                             
 file                                                                                 5.48-1                                                   alpm                            
 file-type                                                                            22.1.1                                                   npm                             
-filelock                                                                             3.31.2                                                   python                          
+filelock                                                                             4.0.1                                                    python                          
 filesystem                                                                           2025.10.12-1                                             alpm                            
 filetime                                                                             0.2.29                                                   rust-crate    (+1 duplicate)    
 filippo.io/edwards25519                                                              v1.1.0                                                   go-module     (+1 duplicate)    
@@ -1242,7 +1242,7 @@ glob                                                                            
 glob                                                                                 13.0.6                                                   npm           (+1 duplicate)    
 globset                                                                              0.4.20                                                   rust-crate    (+1 duplicate)    
 globwalk                                                                             0.9.1                                                    rust-crate    (+1 duplicate)    
-glslang                                                                              1:1.4.357.0-1                                            alpm                            
+glslang                                                                              1:1.4.363.0-1                                            alpm                            
 glycin                                                                               2.1.5-2                                                  alpm                            
 gmp                                                                                  6.3.0-3                                                  alpm                            
 gnulib-l10n                                                                          20241231-1                                               alpm                            
@@ -1404,7 +1404,7 @@ hmac                                                                            
 hmac                                                                                 0.13.0                                                   rust-crate    (+1 duplicate)    
 homedir                                                                              0.3.6                                                    rust-crate    (+1 duplicate)    
 hono                                                                                 4.12.34                                                  npm                             
-hono                                                                                 4.13.12                                                  npm           (+1 duplicate)    
+hono                                                                                 4.13.13                                                  npm           (+1 duplicate)    
 hosted-git-info                                                                      10.1.1                                                   npm           (+1 duplicate)    
 hosted-git-info                                                                      9.0.3                                                    npm                             
 html                                                                                 10.0.0                                                   npm                             
@@ -1809,7 +1809,7 @@ libpcap                                                                         
 libpciaccess                                                                         0.19-1                                                   alpm                            
 libpgm                                                                               5.3.128-4                                                alpm                            
 libpipewire                                                                          1:1.6.9-1                                                alpm                            
-libplacebo                                                                           7.360.1-6                                                alpm                            
+libplacebo                                                                           7.360.1-7                                                alpm                            
 libplasma                                                                            6.7.5-1                                                  alpm                            
 libplist                                                                             2.7.0-3                                                  alpm                            
 libpng                                                                               1.6.59-1                                                 alpm                            
@@ -2135,7 +2135,7 @@ opencode-linux-x64                                                              
 opencode-linux-x64-baseline                                                          1.18.34                                                  npm                             
 opencode-lmstudio                                                                    0.3.1                                                    npm                             
 opencore-amr                                                                         0.1.6-2                                                  alpm                            
-openexr                                                                              3.5.1-1                                                  alpm                            
+openexr                                                                              3.5.2-1                                                  alpm                            
 openh264                                                                             2.6.0-2                                                  alpm                            
 openjpeg2                                                                            2.5.4-1                                                  alpm                            
 openjph                                                                              0.32.0-1                                                 alpm                            
@@ -2318,7 +2318,7 @@ python-cryptography                                                             
 python-discovery                                                                     1.6.1                                                    python                          
 python-distlib                                                                       0.4.3-1                                                  alpm                            
 python-dotenv                                                                        1.2.4                                                    python                          
-python-filelock                                                                      3.31.2-1                                                 alpm                            
+python-filelock                                                                      4.0.1-1                                                  alpm                            
 python-gobject                                                                       3.56.3-1                                                 alpm                            
 python-jaraco.collections                                                            5.1.0-3                                                  alpm                            
 python-jaraco.context                                                                6.1.2-1                                                  alpm                            
@@ -2336,7 +2336,7 @@ python-python-discovery                                                         
 python-resolvelib                                                                    1.2.1-2                                                  alpm                            
 python-setuptools                                                                    1:84.0.0-1                                               alpm                            
 python-typing_extensions                                                             4.16.0-1                                                 alpm                            
-python-virtualenv                                                                    21.14.1-1                                                alpm                            
+python-virtualenv                                                                    21.14.5-1                                                alpm                            
 python-wheel                                                                         0.48.0-1                                                 alpm                            
 python-yaml                                                                          6.0.3-2                                                  alpm                            
 pyyaml                                                                               6.0.3                                                    python        (+1 duplicate)    
@@ -2463,8 +2463,8 @@ scopeguard                                                                      
 scroll                                                                               0.13.0                                                   rust-crate    (+1 duplicate)    
 scrypt                                                                               0.11.0                                                   rust-crate    (+1 duplicate)    
 scss                                                                                 10.0.0                                                   npm                             
-sdl2-compat                                                                          2.32.72-1                                                alpm                            
-sdl3                                                                                 3.4.16-1                                                 alpm                            
+sdl2-compat                                                                          2.32.74-1                                                alpm                            
+sdl3                                                                                 3.4.18-1                                                 alpm                            
 seahash                                                                              4.1.0                                                    rust-crate    (+1 duplicate)    
 search-result                                                                        10.0.0                                                   npm                             
 seatd                                                                                0.9.3-1                                                  alpm                            
@@ -2495,7 +2495,7 @@ setuptools                                                                      
 sha1                                                                                 0.11.0                                                   rust-crate    (+1 duplicate)    
 sha2                                                                                 0.10.9                                                   rust-crate    (+1 duplicate)    
 sha2                                                                                 0.11.0                                                   rust-crate    (+1 duplicate)    
-shaderc                                                                              2026.3-1                                                 alpm                            
+shaderc                                                                              2026.4-1                                                 alpm                            
 shaderlab                                                                            10.0.0                                                   npm                             
 shadow                                                                               4.20.0.arch1-1                                           alpm                            
 sharded-slab                                                                         0.1.7                                                    rust-crate    (+1 duplicate)    
@@ -2743,75 +2743,75 @@ util-linux                                                                      
 util-linux-libs                                                                      2.42.4-1                                                 alpm                            
 uuid                                                                                 1.24.0                                                   rust-crate    (+1 duplicate)    
 uuid                                                                                 14.0.2                                                   npm                             
-uv                                                                                   0.12.22                                                  python                          
-uv                                                                                   0.12.22                                                  rust-crate    (+1 duplicate)    
-uv-audit                                                                             0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-auth                                                                              0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-bin-install                                                                       0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-build-backend                                                                     0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-build-frontend                                                                    0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-cache                                                                             0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-cache-info                                                                        0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-cache-key                                                                         0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-cli                                                                               0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-client                                                                            0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-configuration                                                                     0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-console                                                                           0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-dirs                                                                              0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-dispatch                                                                          0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-distribution                                                                      0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-distribution-filename                                                             0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-distribution-types                                                                0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-errors                                                                            0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-extract                                                                           0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-fastid                                                                            0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-flags                                                                             0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-fs                                                                                0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-git                                                                               0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-git-types                                                                         0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-globfilter                                                                        0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-install-wheel                                                                     0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-installer                                                                         0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-keyring                                                                           0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-lock                                                                              0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-logging                                                                           0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-metadata                                                                          0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-netrc                                                                             0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-normalize                                                                         0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-once-map                                                                          0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-options-metadata                                                                  0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-pep440                                                                            0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-pep508                                                                            0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-performance-memory-allocator                                                      0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-platform                                                                          0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-platform-tags                                                                     0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-preview                                                                           0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-publish                                                                           0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-pypi-types                                                                        0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-python                                                                            0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-redacted                                                                          0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-requirements                                                                      0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-requirements-txt                                                                  0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-resolver                                                                          0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-resolver-types                                                                    0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-scripts                                                                           0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-settings                                                                          0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-shell                                                                             0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-small-str                                                                         0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-state                                                                             0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-static                                                                            0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-test                                                                              0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-threads                                                                           0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-toml                                                                              0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-tool                                                                              0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-torch                                                                             0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-trampoline-builder                                                                0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-types                                                                             0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-unix                                                                              0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-version                                                                           0.12.22                                                  rust-crate    (+1 duplicate)    
-uv-virtualenv                                                                        0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-warnings                                                                          0.0.89                                                   rust-crate    (+1 duplicate)    
-uv-workspace                                                                         0.0.89                                                   rust-crate    (+1 duplicate)    
+uv                                                                                   0.12.23                                                  python                          
+uv                                                                                   0.12.23                                                  rust-crate    (+1 duplicate)    
+uv-audit                                                                             0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-auth                                                                              0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-bin-install                                                                       0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-build-backend                                                                     0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-build-frontend                                                                    0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-cache                                                                             0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-cache-info                                                                        0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-cache-key                                                                         0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-cli                                                                               0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-client                                                                            0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-configuration                                                                     0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-console                                                                           0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-dirs                                                                              0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-dispatch                                                                          0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-distribution                                                                      0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-distribution-filename                                                             0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-distribution-types                                                                0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-errors                                                                            0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-extract                                                                           0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-fastid                                                                            0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-flags                                                                             0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-fs                                                                                0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-git                                                                               0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-git-types                                                                         0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-globfilter                                                                        0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-install-wheel                                                                     0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-installer                                                                         0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-keyring                                                                           0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-lock                                                                              0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-logging                                                                           0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-metadata                                                                          0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-netrc                                                                             0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-normalize                                                                         0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-once-map                                                                          0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-options-metadata                                                                  0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-pep440                                                                            0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-pep508                                                                            0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-performance-memory-allocator                                                      0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-platform                                                                          0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-platform-tags                                                                     0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-preview                                                                           0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-publish                                                                           0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-pypi-types                                                                        0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-python                                                                            0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-redacted                                                                          0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-requirements                                                                      0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-requirements-txt                                                                  0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-resolver                                                                          0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-resolver-types                                                                    0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-scripts                                                                           0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-settings                                                                          0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-shell                                                                             0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-small-str                                                                         0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-state                                                                             0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-static                                                                            0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-test                                                                              0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-threads                                                                           0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-toml                                                                              0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-tool                                                                              0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-torch                                                                             0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-trampoline-builder                                                                0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-types                                                                             0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-unix                                                                              0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-version                                                                           0.12.23                                                  rust-crate    (+1 duplicate)    
+uv-virtualenv                                                                        0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-warnings                                                                          0.0.90                                                   rust-crate    (+1 duplicate)    
+uv-workspace                                                                         0.0.90                                                   rust-crate    (+1 duplicate)    
 uvicorn                                                                              0.54.0                                                   python                          
 uvloop                                                                               0.23.0                                                   python                          
 v4l-utils                                                                            1.32.0-2                                                 alpm                            
@@ -2825,7 +2825,7 @@ verror                                                                          
 vid.stab                                                                             1.1.2-1                                                  alpm                            
 vim                                                                                  9.2.1046-1                                               alpm                            
 vim-runtime                                                                          9.2.1046-1                                               alpm                            
-virtualenv                                                                           21.14.1                                                  python                          
+virtualenv                                                                           21.14.5                                                  python                          
 vmaf                                                                                 3.2.1-1                                                  alpm                            
 voca                                                                                 1.4.1                                                    npm                             
 volume_key                                                                           0.3.12-12                                                alpm                            
@@ -2838,7 +2838,7 @@ vscode-modern-icons                                                             
 vscode-tas-client                                                                    0.3.3                                                    npm                             
 vscode-theme-seti                                                                    10.0.0                                                   npm                             
 vte                                                                                  0.14.1                                                   rust-crate    (+1 duplicate)    
-vulkan-headers                                                                       1:1.4.357.0-1                                            alpm                            
+vulkan-headers                                                                       1:1.4.363.0-1                                            alpm                            
 vulkan-icd-loader                                                                    1.4.357.0-1                                              alpm                            
 vulkan-intel                                                                         1:26.2.4-1                                               alpm                            
 vulkan-mesa-implicit-layers                                                          1:26.2.4-1                                               alpm                            
