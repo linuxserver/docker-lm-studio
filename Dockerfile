@@ -68,6 +68,7 @@ RUN \
   mv squashfs-root/* /opt/lm-studio/ && \
   curl -fsSL https://lmstudio.ai/install.sh | HOME=/opt/lm-studio bash && \
   chmod -R o+rX /opt/lm-studio && \
+  find /opt/lm-studio -type d -exec chmod 755 {} + && \
   cp \
     /opt/lm-studio/usr/share/icons/hicolor/512x512/apps/lm-studio.png \
     /usr/share/icons/hicolor/512x512/apps/lm-studio.png && \
