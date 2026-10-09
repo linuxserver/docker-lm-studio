@@ -2,7 +2,7 @@ NAME                                                                            
 @agentclientprotocol/sdk                                                             1.4.0                                                    npm                             
 @ai-sdk/amazon-bedrock                                                               5.0.113                                                  npm                             
 @ai-sdk/anthropic                                                                    4.0.78                                                   npm                             
-@ai-sdk/gateway                                                                      3.0.211                                                  npm                             
+@ai-sdk/gateway                                                                      3.0.212                                                  npm                             
 @ai-sdk/gateway                                                                      4.0.110                                                  npm                             
 @ai-sdk/gateway                                                                      4.0.2                                                    npm                             
 @ai-sdk/google                                                                       4.0.93                                                   npm                             
@@ -10,7 +10,7 @@ NAME                                                                            
 @ai-sdk/mistral                                                                      4.0.62                                                   npm                             
 @ai-sdk/openai                                                                       4.0.91                                                   npm                             
 @ai-sdk/openai-compatible                                                            3.0.67                                                   npm                             
-@ai-sdk/otel                                                                         1.0.136                                                  npm                             
+@ai-sdk/otel                                                                         1.0.137                                                  npm                             
 @ai-sdk/otel                                                                         1.0.2                                                    npm                             
 @ai-sdk/provider                                                                     2.0.5                                                    npm                             
 @ai-sdk/provider                                                                     3.0.18                                                   npm           (+2 duplicates)   
@@ -23,20 +23,20 @@ NAME                                                                            
 @ai-sdk/provider-utils                                                               5.0.58                                                   npm                             
 @anthropic-ai/sdk                                                                    0.127.0                                                  npm                             
 @anthropic-ai/sdk                                                                    0.82.0                                                   npm                             
-@aws-sdk/core                                                                        3.978.1                                                  npm                             
-@aws-sdk/credential-provider-cognito-identity                                        3.972.71                                                 npm                             
-@aws-sdk/credential-provider-env                                                     3.972.72                                                 npm                             
-@aws-sdk/credential-provider-http                                                    3.972.74                                                 npm                             
-@aws-sdk/credential-provider-ini                                                     3.973.17                                                 npm                             
-@aws-sdk/credential-provider-login                                                   3.972.79                                                 npm                             
-@aws-sdk/credential-provider-node                                                    3.972.84                                                 npm                             
-@aws-sdk/credential-provider-process                                                 3.972.72                                                 npm                             
-@aws-sdk/credential-provider-sso                                                     3.973.16                                                 npm                             
-@aws-sdk/credential-provider-web-identity                                            3.972.78                                                 npm                             
-@aws-sdk/credential-providers                                                        3.1148.0                                                 npm                             
-@aws-sdk/nested-clients                                                              3.997.46                                                 npm                             
-@aws-sdk/signature-v4-multi-region                                                   3.996.47                                                 npm                             
-@aws-sdk/token-providers                                                             3.1138.0                                                 npm                             
+@aws-sdk/core                                                                        3.978.2                                                  npm                             
+@aws-sdk/credential-provider-cognito-identity                                        3.972.72                                                 npm                             
+@aws-sdk/credential-provider-env                                                     3.972.73                                                 npm                             
+@aws-sdk/credential-provider-http                                                    3.972.75                                                 npm                             
+@aws-sdk/credential-provider-ini                                                     3.973.18                                                 npm                             
+@aws-sdk/credential-provider-login                                                   3.972.80                                                 npm                             
+@aws-sdk/credential-provider-node                                                    3.972.85                                                 npm                             
+@aws-sdk/credential-provider-process                                                 3.972.73                                                 npm                             
+@aws-sdk/credential-provider-sso                                                     3.973.17                                                 npm                             
+@aws-sdk/credential-provider-web-identity                                            3.972.79                                                 npm                             
+@aws-sdk/credential-providers                                                        3.1149.0                                                 npm                             
+@aws-sdk/nested-clients                                                              3.997.47                                                 npm                             
+@aws-sdk/signature-v4-multi-region                                                   3.996.48                                                 npm                             
+@aws-sdk/token-providers                                                             3.1149.0                                                 npm                             
 @aws-sdk/types                                                                       3.974.6                                                  npm                             
 @aws-sdk/xml-builder                                                                 3.972.41                                                 npm                             
 @aws/lambda-invoke-store                                                             0.3.0                                                    npm                             
@@ -344,7 +344,7 @@ NAME                                                                            
 @tufjs/models                                                                        5.0.0                                                    npm                             
 @types/jsesc                                                                         2.5.1                                                    npm                             
 @types/node                                                                          22.16.3                                                  npm                             
-@types/node                                                                          26.6.4                                                   npm           (+1 duplicate)    
+@types/node                                                                          26.6.5                                                   npm           (+1 duplicate)    
 @types/retry                                                                         0.12.0                                                   npm                             
 @types/triple-beam                                                                   1.3.5                                                    npm                             
 @typespec/ts-http-runtime                                                            0.3.2                                                    npm           (+1 duplicate)    
@@ -390,8 +390,8 @@ agent-base                                                                      
 agent-base                                                                           7.1.4                                                    npm           (+2 duplicates)   
 agent-base                                                                           9.0.0                                                    npm           (+1 duplicate)    
 aho-corasick                                                                         1.1.4                                                    rust-crate    (+1 duplicate)    
-ai                                                                                   6.0.302                                                  npm                             
-ai                                                                                   7.0.136                                                  npm           (+1 duplicate)    
+ai                                                                                   6.0.303                                                  npm                             
+ai                                                                                   7.0.137                                                  npm           (+1 duplicate)    
 ai                                                                                   7.0.2                                                    npm                             
 ai-prediction-api                                                                    1.0.0                                                    npm                             
 ai-sdk-provider-opencode-sdk                                                         3.0.8                                                    npm                             
@@ -629,10 +629,11 @@ const-random                                                                    
 constant_time_eq                                                                     0.4.2                                                    rust-crate    (+1 duplicate)    
 containerd                                                                           2.4.1-1                                                  alpm                            
 content-disposition                                                                  1.0.1                                                    npm                             
-content-disposition                                                                  1.1.0                                                    npm           (+1 duplicate)    
+content-disposition                                                                  1.1.0                                                    npm                             
+content-disposition                                                                  2.0.1                                                    npm                             
 content-type                                                                         1.0.5                                                    npm           (+2 duplicates)   
 content-type                                                                         2.0.0                                                    npm           (+1 duplicate)    
-content-type                                                                         2.1.0                                                    npm           (+5 duplicates)   
+content-type                                                                         2.1.0                                                    npm           (+6 duplicates)   
 continuation-local-storage                                                           3.2.1                                                    npm                             
 convertlit                                                                           1.8-13                                                   alpm                            
 cookie                                                                               0.7.2                                                    npm           (+2 duplicates)   
@@ -727,9 +728,9 @@ diskus                                                                          
 displaydoc                                                                           0.2.5                                                    rust-crate    (+1 duplicate)    
 distlib                                                                              0.4.3                                                    python                          
 dlv-list                                                                             0.5.2                                                    rust-crate    (+1 duplicate)    
-dnspython                                                                            2.8.0                                                    python                          
+dnspython                                                                            2.9.0                                                    python                          
 docker                                                                               10.0.0                                                   npm                             
-docker                                                                               1:29.8.2-1                                               alpm                            
+docker                                                                               1:29.9.0-1                                               alpm                            
 docker-compose                                                                       5.6.0-1                                                  alpm                            
 dolphin                                                                              26.08.2-1                                                alpm                            
 dom-serializer                                                                       2.0.0                                                    npm                             
@@ -800,7 +801,8 @@ exenv-es6                                                                       
 exiv2                                                                                0.28.9-1                                                 alpm                            
 expat                                                                                2.9.0-1                                                  alpm                            
 exponential-backoff                                                                  3.1.3                                                    npm           (+2 duplicates)   
-express                                                                              5.2.1                                                    npm           (+2 duplicates)   
+express                                                                              5.2.1                                                    npm           (+1 duplicate)    
+express                                                                              5.3.0                                                    npm                             
 express-rate-limit                                                                   8.5.1                                                    npm                             
 express-rate-limit                                                                   8.7.1                                                    npm           (+1 duplicate)    
 extend                                                                               3.0.2                                                    npm           (+2 duplicates)   
@@ -1574,7 +1576,7 @@ kcolorscheme                                                                    
 kcompletion                                                                          6.30.0-1                                                 alpm                            
 kconfig                                                                              6.30.0-1                                                 alpm                            
 kconfigwidgets                                                                       6.30.0-1                                                 alpm                            
-kcoreaddons                                                                          6.30.0-1                                                 alpm                            
+kcoreaddons                                                                          6.30.0-2                                                 alpm                            
 kcrash                                                                               6.30.0-1                                                 alpm                            
 kdbusaddons                                                                          6.30.0-1                                                 alpm                            
 kde-cli-tools                                                                        6.7.5-1                                                  alpm                            
@@ -1592,7 +1594,7 @@ keyutils                                                                        
 kfilemetadata                                                                        6.30.0-1                                                 alpm                            
 kglobalaccel                                                                         6.30.0-1                                                 alpm                            
 kglobalacceld                                                                        6.7.5-1                                                  alpm                            
-kguiaddons                                                                           6.30.0-1                                                 alpm                            
+kguiaddons                                                                           6.30.0-2                                                 alpm                            
 kholidays                                                                            1:6.30.0-1                                               alpm                            
 ki18n                                                                                6.30.0-1                                                 alpm                            
 kiconthemes                                                                          6.30.0-1                                                 alpm                            
@@ -1604,12 +1606,12 @@ kirigami                                                                        
 kirigami-addons                                                                      1.15.0-1                                                 alpm                            
 kitemmodels                                                                          6.30.0-1                                                 alpm                            
 kitemviews                                                                           6.30.0-1                                                 alpm                            
-kjobwidgets                                                                          6.30.0-1                                                 alpm                            
+kjobwidgets                                                                          6.30.0-2                                                 alpm                            
 kmenuedit                                                                            6.7.5-1                                                  alpm                            
 kmod                                                                                 34.2-1                                                   alpm                            
 knewstuff                                                                            6.30.0-1                                                 alpm                            
 knighttime                                                                           6.7.5-1                                                  alpm                            
-knotifications                                                                       6.30.0-1                                                 alpm                            
+knotifications                                                                       6.30.0-2                                                 alpm                            
 knotifyconfig                                                                        6.30.0-1                                                 alpm                            
 koffi                                                                                3.3.1                                                    npm                             
 konsole                                                                              26.08.2-1                                                alpm                            
@@ -1622,23 +1624,23 @@ krb5                                                                            
 krunner                                                                              6.30.0-1                                                 alpm                            
 kscreenlocker                                                                        6.7.5-1                                                  alpm                            
 kservice                                                                             6.30.0-1                                                 alpm                            
-kstatusnotifieritem                                                                  6.30.0-1                                                 alpm                            
+kstatusnotifieritem                                                                  6.30.0-2                                                 alpm                            
 ksvg                                                                                 6.30.0-1                                                 alpm                            
 ksystemstats                                                                         6.7.5-1                                                  alpm                            
 ktexteditor                                                                          6.30.0-1                                                 alpm                            
 ktextwidgets                                                                         6.30.0-1                                                 alpm                            
 kubernetes-types                                                                     1.30.0                                                   npm                             
 kuler                                                                                2.0.0                                                    npm                             
-kunitconversion                                                                      6.30.0-1                                                 alpm                            
+kunitconversion                                                                      6.30.0-2                                                 alpm                            
 kuserfeedback                                                                        6.30.0-1                                                 alpm                            
 kvantum                                                                              1.1.8-1                                                  alpm                            
 kwallet                                                                              6.30.0-1                                                 alpm                            
 kwayland                                                                             6.7.5-1                                                  alpm                            
-kwidgetsaddons                                                                       6.30.0-1                                                 alpm                            
+kwidgetsaddons                                                                       6.30.0-2                                                 alpm                            
 kwin                                                                                 6.7.5-3                                                  alpm                            
 kwin-x11                                                                             6.7.5-3                                                  alpm                            
 kwindowsystem                                                                        6.30.0-1                                                 alpm                            
-kxmlgui                                                                              6.30.0-1                                                 alpm                            
+kxmlgui                                                                              6.30.0-2                                                 alpm                            
 kysely                                                                               0.29.6                                                   npm                             
 l-smash                                                                              2.14.5-4                                                 alpm                            
 labwc                                                                                0.20.2-1                                                 alpm                            
@@ -2108,7 +2110,7 @@ openai                                                                          
 openai-harmony                                                                       0.0.3+lmstudio                                           python        (+2 duplicates)   
 openbox                                                                              3.6.1-14                                                 alpm                            
 openbsd-netcat                                                                       1.238_1-1                                                alpm                            
-opencl-nvidia                                                                        615.71.09-1                                              alpm                            
+opencl-nvidia                                                                        615.78.08-1                                              alpm                            
 openclaw                                                                             2026.9.9                                                 npm                             
 opencode-ai                                                                          1.18.35                                                  npm                             
 opencode-linux-x64                                                                   1.18.35                                                  npm                             
@@ -2280,7 +2282,7 @@ pure-rand                                                                       
 purl                                                                                 0.1.6                                                    rust-crate    (+1 duplicate)    
 purpose                                                                              6.30.0-1                                                 alpm                            
 pxfm                                                                                 0.1.28                                                   rust-crate    (+1 duplicate)    
-pycparser                                                                            3.1                                                      python        (+1 duplicate)    
+pycparser                                                                            3.11                                                     python        (+1 duplicate)    
 pydantic                                                                             2.12.3                                                   python        (+2 duplicates)   
 pydantic                                                                             2.14.0                                                   python                          
 pydantic-core                                                                        2.41.4                                                   python        (+2 duplicates)   
@@ -2311,7 +2313,7 @@ python-markupsafe                                                               
 python-more-itertools                                                                11.1.0-1                                                 alpm                            
 python-packaging                                                                     26.3-1                                                   alpm                            
 python-platformdirs                                                                  4.12.4-1                                                 alpm                            
-python-pycparser                                                                     3.01-1                                                   alpm                            
+python-pycparser                                                                     3.11-1                                                   alpm                            
 python-python-discovery                                                              1.6.1-1                                                  alpm                            
 python-resolvelib                                                                    1.2.1-2                                                  alpm                            
 python-setuptools                                                                    1:84.0.0-1                                               alpm                            
@@ -2636,7 +2638,7 @@ tinysparql                                                                      
 tinystr                                                                              0.8.2                                                    rust-crate    (+1 duplicate)    
 tinyvec                                                                              1.11.0                                                   rust-crate    (+1 duplicate)    
 tinyvec_macros                                                                       0.1.1                                                    rust-crate    (+1 duplicate)    
-tmux                                                                                 3.7_c-1                                                  alpm                            
+tmux                                                                                 3.8-1                                                    alpm                            
 toidentifier                                                                         1.0.1                                                    npm           (+2 duplicates)   
 token-types                                                                          6.1.2                                                    npm                             
 tokio                                                                                1.53.1                                                   rust-crate    (+1 duplicate)    
@@ -2722,93 +2724,93 @@ util-linux                                                                      
 util-linux-libs                                                                      2.42.4-1                                                 alpm                            
 uuid                                                                                 1.24.0                                                   rust-crate    (+1 duplicate)    
 uuid                                                                                 14.0.2                                                   npm                             
-uv                                                                                   0.12.24                                                  python                          
-uv                                                                                   0.12.24                                                  rust-crate    (+1 duplicate)    
-uv-audit                                                                             0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-audit-operations                                                                  0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-auth                                                                              0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-bin-install                                                                       0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-build-backend                                                                     0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-build-commands                                                                    0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-build-frontend                                                                    0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-cache                                                                             0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-cache-info                                                                        0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-cache-key                                                                         0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-cli                                                                               0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-client                                                                            0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-command-support                                                                   0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-configuration                                                                     0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-console                                                                           0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-dirs                                                                              0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-dispatch                                                                          0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-distribution                                                                      0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-distribution-filename                                                             0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-distribution-types                                                                0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-environment-operations                                                            0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-errors                                                                            0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-extract                                                                           0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-fastid                                                                            0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-flags                                                                             0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-fs                                                                                0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-git                                                                               0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-git-types                                                                         0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-globfilter                                                                        0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-install-operations                                                                0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-install-wheel                                                                     0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-installer                                                                         0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-keyring                                                                           0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-lock                                                                              0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-lock-operations                                                                   0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-logging                                                                           0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-macros                                                                            0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-metadata                                                                          0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-netrc                                                                             0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-normalize                                                                         0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-once-map                                                                          0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-options-metadata                                                                  0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-pep440                                                                            0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-pep508                                                                            0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-performance-memory-allocator                                                      0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-pip-commands                                                                      0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-platform                                                                          0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-platform-tags                                                                     0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-preview                                                                           0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-project-commands                                                                  0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-project-edit                                                                      0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-publish                                                                           0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-publish-commands                                                                  0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-pypi-types                                                                        0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-python-commands                                                                   0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-python-discovery                                                                  0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-python-interpreter                                                                0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-python-managed                                                                    0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-python-types                                                                      0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-redacted                                                                          0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-requirements                                                                      0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-requirements-txt                                                                  0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-resolve-operations                                                                0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-resolver                                                                          0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-resolver-types                                                                    0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-scripts                                                                           0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-settings                                                                          0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-shell                                                                             0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-small-str                                                                         0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-state                                                                             0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-static                                                                            0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-test                                                                              0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-threads                                                                           0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-toml                                                                              0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-tool                                                                              0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-tool-commands                                                                     0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-torch                                                                             0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-trampoline-builder                                                                0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-types                                                                             0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-unix                                                                              0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-version                                                                           0.12.24                                                  rust-crate    (+1 duplicate)    
-uv-virtualenv                                                                        0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-warnings                                                                          0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-workspace                                                                         0.0.91                                                   rust-crate    (+1 duplicate)    
-uv-workspace-commands                                                                0.0.91                                                   rust-crate    (+1 duplicate)    
+uv                                                                                   0.13.0                                                   python                          
+uv                                                                                   0.13.0                                                   rust-crate    (+1 duplicate)    
+uv-audit                                                                             0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-audit-operations                                                                  0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-auth                                                                              0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-bin-install                                                                       0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-build-backend                                                                     0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-build-commands                                                                    0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-build-frontend                                                                    0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-cache                                                                             0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-cache-info                                                                        0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-cache-key                                                                         0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-cli                                                                               0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-client                                                                            0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-command-support                                                                   0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-configuration                                                                     0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-console                                                                           0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-dirs                                                                              0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-dispatch                                                                          0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-distribution                                                                      0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-distribution-filename                                                             0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-distribution-types                                                                0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-environment-operations                                                            0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-errors                                                                            0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-extract                                                                           0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-fastid                                                                            0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-flags                                                                             0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-fs                                                                                0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-git                                                                               0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-git-types                                                                         0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-globfilter                                                                        0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-install-operations                                                                0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-install-wheel                                                                     0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-installer                                                                         0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-keyring                                                                           0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-lock                                                                              0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-lock-operations                                                                   0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-logging                                                                           0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-macros                                                                            0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-metadata                                                                          0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-netrc                                                                             0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-normalize                                                                         0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-once-map                                                                          0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-options-metadata                                                                  0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-pep440                                                                            0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-pep508                                                                            0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-performance-memory-allocator                                                      0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-pip-commands                                                                      0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-platform                                                                          0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-platform-tags                                                                     0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-preview                                                                           0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-project-commands                                                                  0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-project-edit                                                                      0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-publish                                                                           0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-publish-commands                                                                  0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-pypi-types                                                                        0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-python-commands                                                                   0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-python-discovery                                                                  0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-python-interpreter                                                                0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-python-managed                                                                    0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-python-types                                                                      0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-redacted                                                                          0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-requirements                                                                      0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-requirements-txt                                                                  0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-resolve-operations                                                                0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-resolver                                                                          0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-resolver-types                                                                    0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-scripts                                                                           0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-settings                                                                          0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-shell                                                                             0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-small-str                                                                         0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-state                                                                             0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-static                                                                            0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-test                                                                              0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-threads                                                                           0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-toml                                                                              0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-tool                                                                              0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-tool-commands                                                                     0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-torch                                                                             0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-trampoline-builder                                                                0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-types                                                                             0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-unix                                                                              0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-version                                                                           0.13.0                                                   rust-crate    (+1 duplicate)    
+uv-virtualenv                                                                        0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-warnings                                                                          0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-workspace                                                                         0.0.92                                                   rust-crate    (+1 duplicate)    
+uv-workspace-commands                                                                0.0.92                                                   rust-crate    (+1 duplicate)    
 uvicorn                                                                              0.54.0                                                   python                          
 uvloop                                                                               0.23.0                                                   python                          
 v4l-utils                                                                            1.32.0-2                                                 alpm                            
