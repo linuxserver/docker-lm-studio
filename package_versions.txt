@@ -3,14 +3,14 @@ NAME                                                                            
 @ai-sdk/amazon-bedrock                                                               5.0.113                                                  npm                             
 @ai-sdk/anthropic                                                                    4.0.78                                                   npm                             
 @ai-sdk/gateway                                                                      3.0.211                                                  npm                             
-@ai-sdk/gateway                                                                      4.0.109                                                  npm                             
+@ai-sdk/gateway                                                                      4.0.110                                                  npm                             
 @ai-sdk/gateway                                                                      4.0.2                                                    npm                             
 @ai-sdk/google                                                                       4.0.93                                                   npm                             
 @ai-sdk/google-vertex                                                                5.0.109                                                  npm                             
 @ai-sdk/mistral                                                                      4.0.62                                                   npm                             
 @ai-sdk/openai                                                                       4.0.91                                                   npm                             
 @ai-sdk/openai-compatible                                                            3.0.67                                                   npm                             
-@ai-sdk/otel                                                                         1.0.135                                                  npm                             
+@ai-sdk/otel                                                                         1.0.136                                                  npm                             
 @ai-sdk/otel                                                                         1.0.2                                                    npm                             
 @ai-sdk/provider                                                                     2.0.5                                                    npm                             
 @ai-sdk/provider                                                                     3.0.18                                                   npm           (+2 duplicates)   
@@ -391,7 +391,7 @@ agent-base                                                                      
 agent-base                                                                           9.0.0                                                    npm           (+1 duplicate)    
 aho-corasick                                                                         1.1.4                                                    rust-crate    (+1 duplicate)    
 ai                                                                                   6.0.302                                                  npm                             
-ai                                                                                   7.0.135                                                  npm           (+1 duplicate)    
+ai                                                                                   7.0.136                                                  npm           (+1 duplicate)    
 ai                                                                                   7.0.2                                                    npm                             
 ai-prediction-api                                                                    1.0.0                                                    npm                             
 ai-sdk-provider-opencode-sdk                                                         3.0.8                                                    npm                             
@@ -1899,7 +1899,7 @@ litemap                                                                         
 lld                                                                                  23.1.1-1                                                 alpm                            
 llhttp                                                                               9.3.1-1                                                  alpm                            
 llvm-libs                                                                            23.1.1-1                                                 alpm                            
-lm-studio                                                                            0.4.25+1                                                 npm                             
+lm-studio                                                                            0.4.26+4                                                 npm                             
 lm_sensors                                                                           1:3.6.2-1                                                alpm                            
 lmdb                                                                                 0.9.35-1                                                 alpm                            
 lmstudio                                                                             1.5.0                                                    python                          
