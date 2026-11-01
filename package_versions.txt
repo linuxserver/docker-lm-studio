@@ -404,7 +404,7 @@ anstyle-parse                                                                   
 anstyle-query                                                                        1.1.5                                                    rust-crate    (+1 duplicate)    
 anyhow                                                                               1.0.104                                                  rust-crate    (+1 duplicate)    
 anyio                                                                                4.15.1                                                   python                          
-aom                                                                                  3.15.2-1                                                 alpm                            
+aom                                                                                  3.15.3-1                                                 alpm                            
 applicationinsights                                                                  2.9.8                                                    npm                             
 appstream                                                                            1.2.2-1                                                  alpm                            
 appstream-qt                                                                         1.2.2-1                                                  alpm                            
@@ -1373,7 +1373,7 @@ hmac                                                                            
 hmac                                                                                 0.13.0                                                   rust-crate    (+1 duplicate)    
 homedir                                                                              0.3.6                                                    rust-crate    (+1 duplicate)    
 hono                                                                                 4.12.34                                                  npm                             
-hono                                                                                 4.13.14                                                  npm           (+1 duplicate)    
+hono                                                                                 4.13.16                                                  npm           (+1 duplicate)    
 hosted-git-info                                                                      10.1.1                                                   npm           (+2 duplicates)   
 html                                                                                 10.0.0                                                   npm                             
 html-escaper                                                                         3.0.3                                                    npm                             
@@ -1876,7 +1876,7 @@ litemap                                                                         
 lld                                                                                  23.1.4-1                                                 alpm                            
 llhttp                                                                               9.3.1-1                                                  alpm                            
 llvm-libs                                                                            23.1.4-1                                                 alpm                            
-lm-studio                                                                            0.4.27+2                                                 npm                             
+lm-studio                                                                            0.4.28+2                                                 npm                             
 lm_sensors                                                                           1:3.6.2-1                                                alpm                            
 lmdb                                                                                 0.9.35-1                                                 alpm                            
 lmstudio                                                                             1.5.0                                                    python                          
@@ -2065,7 +2065,7 @@ on-finished                                                                     
 once                                                                                 1.4.0                                                    npm           (+2 duplicates)   
 once_cell                                                                            1.21.4                                                   rust-crate    (+1 duplicate)    
 one-time                                                                             1.0.0                                                    npm                             
-onetbb                                                                               2023.1.0-1                                               alpm                            
+onetbb                                                                               2023.2.0-1                                               alpm                            
 oniguruma                                                                            6.9.10-3                                                 alpm                            
 openai                                                                               7.27.0                                                   npm                             
 openai-harmony                                                                       0.0.3+lmstudio                                           python        (+2 duplicates)   
@@ -2078,7 +2078,7 @@ opencode-linux-x64                                                              
 opencode-linux-x64-baseline                                                          1.19.5                                                   npm                             
 opencode-lmstudio                                                                    0.3.1                                                    npm                             
 opencore-amr                                                                         0.1.6-2                                                  alpm                            
-openexr                                                                              3.5.2-1                                                  alpm                            
+openexr                                                                              3.5.3-1                                                  alpm                            
 openh264                                                                             2.7.0-1                                                  alpm                            
 openjpeg2                                                                            2.5.4-1                                                  alpm                            
 openjph                                                                              0.32.0-1                                                 alpm                            
@@ -2454,7 +2454,7 @@ sigs.k8s.io/yaml                                                                
 sigstore                                                                             5.0.0                                                    npm           (+1 duplicate)    
 simd-adler32                                                                         0.3.8                                                    rust-crate    (+1 duplicate)    
 simdjson                                                                             2:5.0.5-1                                                alpm                            
-simdutf                                                                              9.2.1-2                                                  alpm                            
+simdutf                                                                              9.2.2-1                                                  alpm                            
 simdutf8                                                                             0.1.5                                                    rust-crate    (+1 duplicate)    
 similar                                                                              2.7.0                                                    rust-crate    (+1 duplicate)    
 similar                                                                              3.2.0                                                    rust-crate    (+1 duplicate)    
@@ -2549,7 +2549,7 @@ tar-codec                                                                       
 tar-framing                                                                          0.0.15                                                   rust-crate    (+1 duplicate)    
 target-lexicon                                                                       0.13.5                                                   rust-crate    (+1 duplicate)    
 tas-client                                                                           0.4.6                                                    npm                             
-tbb                                                                                  2023.1.0                                                 python                          
+tbb                                                                                  2023.2.0                                                 python                          
 tdb                                                                                  1.4.15-2                                                 alpm                            
 tempfile                                                                             3.27.0                                                   rust-crate    (+1 duplicate)    
 terminal-suggest                                                                     1.0.1                                                    npm                             
@@ -2831,7 +2831,8 @@ wrappy                                                                          
 write-file-atomic                                                                    8.0.0                                                    npm           (+1 duplicate)    
 writeable                                                                            0.6.2                                                    rust-crate    (+1 duplicate)    
 ws                                                                                   8.21.0                                                   npm                             
-ws                                                                                   8.22.0                                                   npm           (+2 duplicates)   
+ws                                                                                   8.22.0                                                   npm                             
+ws                                                                                   8.22.1                                                   npm           (+1 duplicate)    
 wsproto                                                                              1.3.2                                                    python                          
 x264                                                                                 3:0.165.r3222.b35605a-2                                  alpm                            
 x265                                                                                 4.3-1                                                    alpm                            
