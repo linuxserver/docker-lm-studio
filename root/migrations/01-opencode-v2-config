@@ -1,0 +1,13 @@
+#!/usr/bin/with-contenv bash
+# shellcheck shell=bash
+
+# replace the stock opencode v1 config, leave user edited configs alone
+OPENCODE_CONFIG="/config/.config/opencode/opencode.json"
+OLD_DEFAULT_SHA="fad6150b3e1b3e8e1cf4235d9672ecd8f6e5c683f385aeb952395d3704c22254"
+
+if [[ -f "${OPENCODE_CONFIG}" ]] && echo "${OLD_DEFAULT_SHA}  ${OPENCODE_CONFIG}" | sha256sum -c --status; then
+    # stdout is captured as the exit code by init-migrations, log to stderr
+    echo "Updating stock opencode config for opencode v2" >&2
+    # cp onto the existing file keeps its owner, abc is not remapped to PUID yet
+    cp /defaults/opencode.json "${OPENCODE_CONFIG}"
+fi

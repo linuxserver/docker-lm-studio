@@ -172,4 +172,5 @@ init_diagram: |
   "lm-studio:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "02.11.26:", desc: "Update OpenCode to v2, replace opencode-lmstudio plugin with opencode-models-discovery, migrate stock configs."}
   - {date: "22.06.26:", desc: "Initial release."}

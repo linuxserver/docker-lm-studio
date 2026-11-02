@@ -63,11 +63,12 @@ if ! grep -q "$RULE_DESC" "$KWIN_RULES_FILE" 2>/dev/null; then
 fi
 
 # Directories
-sudo rm -f /usr/share/dbus-1/system-services/org.freedesktop.UDisks2.service
 chmod 700 "${HOME}/.XDG"
 touch "${HOME}/.local/share/user-places.xbel"
-sudo mkdir -p /tmp/.X11-unix
-sudo chmod 1777 /tmp/.X11-unix
+if ! mkdir -p /tmp/.X11-unix 2>/dev/null || ! chmod 1777 /tmp/.X11-unix 2>/dev/null; then
+  sudo mkdir -p /tmp/.X11-unix
+  sudo chmod 1777 /tmp/.X11-unix
+fi
 
 # Start user systemd services
 if [ -d "$HOME/.config/systemd/user" ]; then
@@ -113,6 +114,26 @@ done
 # Global theme defaults layer
 mkdir -p "${HOME}/.config/kdedefaults"
 export XDG_CONFIG_DIRS="${HOME}/.config/kdedefaults:${XDG_CONFIG_DIRS:-/etc/xdg}"
+
+# CPU rendering: with no render node
+if [ -z "$(ls /dev/dri/renderD* /dev/nvidia0 2>/dev/null)" ]; then
+  CPU_SHARE=$(nproc)
+  if read -r QUOTA PERIOD < /sys/fs/cgroup/cpu.max 2>/dev/null && [ "${QUOTA}" != "max" ]; then
+    CPU_SHARE=$(( (QUOTA + PERIOD - 1) / PERIOD ))
+  elif [ -r /sys/fs/cgroup/cpu/cpu.cfs_quota_us ]; then
+    QUOTA=$(cat /sys/fs/cgroup/cpu/cpu.cfs_quota_us)
+    PERIOD=$(cat /sys/fs/cgroup/cpu/cpu.cfs_period_us)
+    if [ "${QUOTA}" -gt 0 ] && [ "${PERIOD}" -gt 0 ]; then
+      CPU_SHARE=$(( (QUOTA + PERIOD - 1) / PERIOD ))
+    fi
+  fi
+  [ "${CPU_SHARE}" -lt 1 ] && CPU_SHARE=1
+  [ "${CPU_SHARE}" -gt 8 ] && CPU_SHARE=8
+  export LP_NUM_THREADS="${LP_NUM_THREADS:-${CPU_SHARE}}"
+  kwriteconfig6 --file "${HOME}/.config/kdedefaults/kwinrc" --group Plugins --key translucencyEnabled --type bool false
+  kwriteconfig6 --file "${HOME}/.config/kdedefaults/breezerc" --group Common --key ShadowSize ShadowNone
+  echo "[startwm] No render node: llvmpipe on ${LP_NUM_THREADS} threads, shadows and translucency off"
+fi
 
 # Setup application DB
 kbuildsycoca6

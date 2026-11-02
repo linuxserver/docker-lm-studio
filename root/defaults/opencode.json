@@ -1,12 +1,16 @@
 {
   "$schema": "https://opencode.ai/config.json",
-  "plugin": ["opencode-lmstudio"],
-  "provider": {
+  "plugins": ["opencode-models-discovery"],
+  "providers": {
     "lmstudio": {
-      "npm": "@ai-sdk/openai-compatible",
       "name": "LM Studio",
-      "options": {
-        "baseURL": "http://127.0.0.1:1234/v1"
+      "package": "@opencode/ai/providers/openai-compatible",
+      "settings": {
+        "baseURL": "http://127.0.0.1:1234/v1",
+        "modelsDiscovery": {
+          "enabled": true,
+          "modelInfoFormat": "lmstudio"
+        }
       }
     }
   }

@@ -1,3 +1,4 @@
+# syntax=docker/dockerfile:1
 FROM ghcr.io/linuxserver/baseimage-selkies:arch
 
 # set version label
@@ -78,12 +79,13 @@ RUN \
     /usr/share/applications/lm-studio.desktop && \
   echo "**** install npm AI tools ****" && \
   npm install -g \
-    --allow-scripts=opencode-ai \
+    --allow-scripts=@opencode/cli \
     @lmstudio/sdk \
+    @opencode/cli \
     cline \
-    openclaw@latest \
-    opencode-ai \
-    opencode-lmstudio && \
+    openclaw@latest && \
+  rm -rf \
+    /usr/lib/node_modules/@opencode/cli/node_modules/@opencode/cli-linux-* && \
   echo "**** install pip AI tools ****" && \
   python -m pip install \
     aider-install \
@@ -101,6 +103,8 @@ RUN \
     /usr/bin/code-oss-real && \
   setcap -r \
     /usr/sbin/kwin_wayland && \
+  rm -f \
+    /usr/share/dbus-1/system-services/org.freedesktop.UDisks2.service && \
   echo "**** cleanup ****" && \
   rm -rf \
     /config/.cache \
