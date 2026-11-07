@@ -220,7 +220,7 @@ NAME                                                                            
 @openclaw/x                                                                          2026.11.1                                                npm                             
 @openclaw/xai-plugin                                                                 2026.11.1                                                npm                             
 @opencode-ai/sdk                                                                     1.19.5                                                   npm                             
-@opencode/cli                                                                        2.2.5                                                    npm                             
+@opencode/cli                                                                        2.2.6                                                    npm                             
 @openrouter/ai-sdk-provider                                                          3.1.0                                                    npm                             
 @opentelemetry/api                                                                   1.9.0                                                    npm                             
 @opentelemetry/api                                                                   1.9.1                                                    npm                             
